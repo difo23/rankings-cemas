@@ -17,7 +17,7 @@ function App() {
       <div className="row mt-4">
 
         <div className="col">
-          <h1>Records:</h1>
+          <h1>Boletines:</h1>
           <hr />
         </div>
 
@@ -30,8 +30,8 @@ function App() {
       </div>
 
       <div className="row mt-4">
-        <div className="col mt-4 ml-5">
-          <h3>List of records:</h3>
+        <div className="col mt-4 ml-5 mr-5">
+          <h3>Lista de boletines:</h3>
           <hr />
           {state && <h3>{state}</h3>}
         </div>
