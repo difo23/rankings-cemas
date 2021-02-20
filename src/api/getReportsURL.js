@@ -1,11 +1,11 @@
-const getData = async (curso, periodo) => {
+const getReportsURL = (curso, periodo) => {
 
 	/**
 	 * @description: Obtener todos los reportes por curso y periodo. 
 	 * @param	{String}	curso Ejemplo: "4A"
 	 * @param	{String}	Periodo Ejemplo: "2020-2021"
 	 * @URL https://cemasapi.herokuapp.com/reportes/boletin/4A:2020-2021:
-	 * @return  {Array}		data  Retorna un array  de objetos.
+	 * @return  {String}	URL	 String URL .
 	 */
 
 
@@ -15,12 +15,8 @@ const getData = async (curso, periodo) => {
 
 
 	const urlComplete = `${URL_API}${url}${encodeURI(string_params)}`;
-	const resp = await fetch(urlComplete);
 
-	console.info("URL: ", urlComplete)
-	const { data } = await resp.json();
-	console.info("Data: ", urlComplete)
-	return data;
+	return urlComplete;
 };
 
-export default getData;
+export default getReportsURL;
