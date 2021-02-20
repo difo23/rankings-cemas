@@ -1,9 +1,15 @@
-
+import SearchBar from './components/SearchBar';
 
 function App() {
   return (
-    <div>
-      <h1> Hola Reportes </h1>
+    <div className="container">
+      <div className="row mt-4">
+        
+        <div className="col">
+          <SearchBar/>
+        </div>
+
+      </div>
     </div>
   );
 }
