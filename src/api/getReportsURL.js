@@ -11,11 +11,10 @@ const getReportsURL = (curso, periodo) => {
 
 	const url = `/reportes`;
 	let string_params = `/boletin/${curso}:${periodo}:`;
-	const URL_API = 'https://cemasapi.herokuapp.com/';
+	const URL_API = 'https://cemasapi.herokuapp.com';
 
 
 	const urlComplete = `${URL_API}${url}${encodeURI(string_params)}`;
-
 	return urlComplete;
 };
 
