@@ -1,6 +1,7 @@
 
 
 import { useState } from 'react';
+import ListaBoletines from './components/ListaBoletines';
 import SearchBar from './components/SearchBar';
 
 function App() {
@@ -30,10 +31,10 @@ function App() {
       </div>
 
       <div className="row mt-4">
-        <div className="col mt-4 ml-5 mr-5">
+        <div className="col mt-4 ml-5 mr-5 mb-5">
           <h3>Lista de boletines:</h3>
           <hr />
-          {state && <h3>{state}</h3>}
+          {state && <ListaBoletines url={state} />}
         </div>
       </div>
 
