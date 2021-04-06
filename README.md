@@ -42,6 +42,6 @@ Para mas información visita la sección [deployment](https://facebook.github.io
 
 1. Crea un Fork del repositorio.
 2. Clonar en tu maquina mediante `git clone url_del_repositorio_fork`.
-3. Crear una nueva rama con el nombre de tu feacture.
+3. Crear una nueva rama con el nombre de tu feature.
 4. Realiza tus cambios.
 5. Manda tu pull request a la rama `pre-production`.
