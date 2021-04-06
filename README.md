@@ -39,3 +39,9 @@ La compilación se minimiza y los nombres de archivo incluyen los hash. \
 Para mas información visita la sección [deployment](https://facebook.github.io/create-react-app/docs/deployment). 
 
 ## Contribución
+
+1. Crea un Fork del repositorio.
+2. Clonar en tu maquina mediante `git clone url_del_repositorio_fork`.
+3. Crear una nueva rama con el nombre de tu feacture.
+4. Realiza tus cambios.
+5. Manda tu pull request a la rama `pre-production`.
