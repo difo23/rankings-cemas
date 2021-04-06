@@ -40,6 +40,12 @@ La compilación se minimiza y los nombres de archivo incluyen los hash. \
 
 Para mas información visita la sección [deployment](https://facebook.github.io/create-react-app/docs/deployment). 
 
+<!-- 
+## Firebase
+
+Aquí va la explicación de como conectar la DB. 
+-->
+
 ## Contribución
 
 1. Crea un Fork del repositorio.
