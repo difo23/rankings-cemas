@@ -64,3 +64,7 @@ Luego cada vez que se haga un cambio en el repositorio principal y lo quieras tr
 2. `git push origin main`
 
 **Nota:** recuerda estar ubicado dentro de la rama que quieres actualizar.
+
+Aquí unos enlaces con información que podria serte util:
+1. https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork#platform-linux
+2. https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork#platform-linux
