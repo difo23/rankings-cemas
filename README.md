@@ -1,6 +1,8 @@
 # Introducción
 
-<!-- Aquí se debe agregar la explicación de lo que hace nuestra App -->
+<!-- 
+Aquí se debe agregar la explicación de lo que hace nuestra App 
+-->
 
 Este proyecto esta hecho con [Create React App](https://github.com/facebook/create-react-app).
 
