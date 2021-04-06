@@ -4,7 +4,13 @@
 
 Este proyecto esta hecho con [Create React App](https://github.com/facebook/create-react-app).
 
+<!-- 
 ## Capturas de pantalla
+
+![](./link/img-1.png)
+![](./link/img-2.png)
+![](./link/img-3.png) 
+-->
 
 ## Scripts
 
