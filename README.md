@@ -4,6 +4,8 @@
 
 Este proyecto esta hecho con [Create React App](https://github.com/facebook/create-react-app).
 
+## Capturas de pantalla
+
 ## Scripts
 
 En este proyecto puedes correr los siguientes Scripts:
@@ -29,3 +31,5 @@ La compilación se minimiza y los nombres de archivo incluyen los hash. \
 ¡Tu aplicación está lista para salir a producción!
 
 Para mas información visita la sección [deployment](https://facebook.github.io/create-react-app/docs/deployment). 
+
+## Contribución
