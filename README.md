@@ -1,18 +1,13 @@
 # Introducción
 
-<!-- 
-Aquí se debe agregar la explicación de lo que hace nuestra App 
--->
+Este es un proyecto escolar grupal, que consiste en crear una App con React, Bootstrap y Firebase. Se requiere ordenar el listado de estudiantes según su calificación promedio. Todos estos datos son obtenidos desde la base de datos del centro, usando su propia API privada.
 
 Este proyecto esta hecho con [Create React App](https://github.com/facebook/create-react-app).
 
-<!-- 
+
 ## Capturas de pantalla
 
-![](./link/img-1.png)
-![](./link/img-2.png)
-![](./link/img-3.png) 
--->
+![](./assets/img/main-section.png)
 
 ## Scripts
 
