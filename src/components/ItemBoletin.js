@@ -21,11 +21,11 @@ export default function ItemBoletin({ estudiante }) {
                 <p className="mb-1"> {`Promedio Tecnico : ${estudiante.idx_tecnico}`} </p>
                 <p className="mb-1"> {`Promedio General : ${estudiante.idx_general}`} </p>
 
-                <small>Titular: {estudiante.nombre_titular}</small>
-                <div className="mt-3">
+                {/* <small>Titular: {estudiante.nombre_titular}</small> */}
+                {/* <div className="mt-3">
                     <button className="btn btn-outline-success " >Buscar</button>
 
-                </div>
+                </div> */}
             </li>
         </div>
     )

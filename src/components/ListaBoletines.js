@@ -3,7 +3,8 @@ import ItemBoletin from "./ItemBoletin";
 import {
     getIdxAcademico,
     getIdxGeneral,
-    getIdxTecnico
+    getIdxTecnico,
+    orderByIdx
 } from "./helpers";
 
 export default function ListaBoletines({ url }) {
@@ -30,7 +31,8 @@ export default function ListaBoletines({ url }) {
 
         const valid = json.data.filter(dato => (dato.asignaturas.length > 2));
 
-        return valid.map(estudiante => {
+        const ranking_desorder = valid.map(estudiante => {
+
 
             //obtener idx_academico
             const idx_academico = getIdxAcademico(estudiante?.asignaturas);
@@ -49,7 +51,14 @@ export default function ListaBoletines({ url }) {
             }
 
         })
+
+
+        const ranking_order = orderByIdx(ranking_desorder);
+
+        return ranking_order;
     }
+
+    //llamo el algoritmo
 
     const ranking = algoritmoRanking(data);
 
@@ -57,7 +66,7 @@ export default function ListaBoletines({ url }) {
     return (
         <div>
             <div className="list-group">
-                {ranking.map(estudiante => <ItemBoletin key={estudiante._id} data={estudiante} />)}
+                {ranking.map(estudiante => <ItemBoletin key={estudiante._id} estudiante={estudiante} />)}
 
             </div>
         </div>
