@@ -18,6 +18,29 @@ export default function ListaBoletines({ url }) {
     }
 
     console.log("Datos: ", data)
+    
+    // Algoritmo de ranking sobre data
+    const algoritmoRanking = (json) => {
+        
+       const valid = json.data.filter(dato => (dato.asignaturas.length > 2));
+        
+       const ranking = valid.map( estudiante => {
+           
+           //obtener idx_academico
+           
+           //obtener idx_tecnico
+           
+           
+           //obtener idx_general
+           
+       
+       
+       })
+    
+    
+    }
+    
+    const  ranking  = algoritmoRanking(data);
 
 
     return (
