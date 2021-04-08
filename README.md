@@ -1,6 +1,6 @@
 # Introducción
 
-Este es un proyecto escolar grupal, que consiste en crear una App con React, Bootstrap y Firebase. Se requiere ordenar el listado de estudiantes según su calificación promedio. Todos estos datos son obtenidos desde la base de datos del centro, usando su propia API privada.
+Este es un proyecto escolar grupal, que consiste en crear una App con React, Bootstrap y Firebase. Se requiere ordenar el listado de estudiantes según su calificación promedio. Todos estos datos son obtenidos desde un JSON con un reporte de los restudiantes del centro.
 
 Este proyecto esta hecho con [Create React App](https://github.com/facebook/create-react-app).
 
@@ -63,3 +63,47 @@ Luego cada vez que se haga un cambio en el repositorio principal y lo quieras tr
 Aquí unos enlaces con información que podria serte util:
 1. https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork#platform-linux
 2. https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork#platform-linux
+
+ ## El primer paso del algoritmo es obtener los reportes por curso y periodo:      
+ `4A:2020-2021`
+ 
+ ### Para llevar acabo la peticion de los reportes debemos usar: 
+ #### La funcion para crear la URL que solicita los reportes al API: 
+ La siguiente funcion nos sirve para formar la URL para el pedido de reportes: 
+ ```js
+ const getReportsURL = (curso, periodo) => {
+
+	/**
+	 * @description: Obtener todos los reportes por curso y periodo. 
+	 * @param	{String}	curso Ejemplo: "4A"
+	 * @param	{String}	Periodo Ejemplo: "2020-2021"
+	 * @URL https://cemasapi.herokuapp.com/reportes/boletin/4A:2020-2021:
+	 * @return  {String}	URL	 String URL .
+	 */
+...
+};
+ ```
+ 
+#### El hook para gestionar los fecth al API:
+
+El hook que creamos es `useFetch`
+```js
+import { useState, useEffect, useRef } from 'react';
+
+
+export const useFetch = (url) => {
+...
+}
+```
+
+#### El componente que hace la peticion y usa el useFetch:
+
+```js
+import { useFetch } from "../hooks/useFetch";
+import ItemBoletin from "./ItemBoletin";
+
+
+export default function ListaBoletines({ url }) {
+...
+}
+```
