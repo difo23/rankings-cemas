@@ -25,7 +25,7 @@ Abra [http://localhost:3000](http://localhost:3000) para visualizarlo en el nave
 La página se recargará si realiza modificaciones. \
 También verá cualquier error por la consola.
 
-### `yarn build` o `npm build`
+### `yarn run predeploy` o `npm run predeploy`
 
 Construye la aplicación para producción en la carpeta `build`. \
 Agrupa correctamente React en el modo de producción y optimiza la compilación para obtener el mejor rendimiento.
@@ -34,6 +34,10 @@ La compilación se minimiza y los nombres de archivo incluyen los hash. \
 ¡Tu aplicación está lista para salir a producción!
 
 Para mas información visita la sección [deployment](https://facebook.github.io/create-react-app/docs/deployment). 
+
+### `yarn run deploy` o `npm run deploy`
+
+Publica la aplicación usando GH Pages.
 
 <!-- 
 ## Firebase
