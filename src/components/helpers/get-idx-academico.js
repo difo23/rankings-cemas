@@ -1,9 +1,51 @@
+// Propuesta de Enmanuel
 function getIdxAcademico(asignaturas) {
-  asignaturas.forEach((object) => {
-    object.forEach((data) => {
-      console.log(typeof object, typeof data);
-    })
-  });
+  // es la suma de los 4 meses dividido entre 4
+  let promedio_asignaturas = 0;
+
+  // array.forEach(object => {
+  //   object.forEach(element)
+  // });aaaaa
+
+  for (let i = 0; i < asignaturas.length; i++) {
+    let total1 = parseFloat(asignaturas[i].ago_sept_oct);
+    let total2 = parseFloat(asignaturas[i].nov_dic_ene);;
+    let total3 = parseFloat(asignaturas[i].feb_mar);
+    let total4 = parseFloat(asignaturas[i].abr_may_jun);
+    let total5 = total1 + total2 + total3 + total4;
+    let total = total5 / 4;
+
+    console.log("Promedio total de una asignatura", total);
+    console.log("Objecto con las asignaturas", asignaturas);
+
+    return total;
+  }
+}
+
+// function getIdxAcademico(asignaturas) {
+//   // es la suma de los 4 semestres dividido entre 4
+//   let promedio_asignaturas = 0;
+
+//   for (let i = 0; i < asignaturas.length; i++) {
+//     let total1 = parseFloat(asignaturas[i].ago_sept_oct);
+//     let total2 = parseFloat(asignaturas[i].nov_dic_ene); ;
+//     let total3 = parseFloat(asignaturas[i].feb_mar);
+//     let total4 = parseFloat(asignaturas[i].abr_may_jun);
+//     let total5 = total1 + total2 + total3 + total4;
+//     let total = total5 / 4 ;
+//     console.log("promedio según Enmanuel",total);
+//     console.log("Adonys el bacacno",asignaturas);
+
+//     // console.log("lo k Adonys quiere ver", asignaturas);
+//     return total;
+
+//   }
+
+asignaturas.forEach((object) => {
+  object.forEach((data) => {
+    console.log(typeof object, typeof data);
+  })
+});
 }
 
 // function getIdxAcademico(asignaturas) {
