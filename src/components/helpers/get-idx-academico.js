@@ -1,7 +1,6 @@
-
-
-export default function getIdxAcademico(asignaturas) {
-
+const getIdxAcademico = (asignaturas) => {
+  let promedio_asignaturas = 0;
+  let promedio_academico = 0;
   console.log('getIdxAcademico', asignaturas);
 
   // Calcular idx academico
@@ -26,7 +25,7 @@ export default function getIdxAcademico(asignaturas) {
   if (asignaturas) {
     //Calculamos index con asignaturas
 
-    return 93.9042;
+    return promedio_academico;
   } else {
 
     // Return 0 si asignaturas es null o []
@@ -34,3 +33,5 @@ export default function getIdxAcademico(asignaturas) {
   }
 
 }
+
+export default getIdxAcademico;
