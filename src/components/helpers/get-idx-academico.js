@@ -1,20 +1,28 @@
 function getIdxAcademico(asignaturas) {
-  asignaturas.forEach(element => {
-    for (let i = 0; i < asignatura.length; i++) {
-      let sum_asignatura = parseInt(asignaturas[i].ago_sept_oct) + parseInt(asignaturas[i].nov_dic_ene) + parseInt(asignaturas[i].feb_mar) + parseInt(asignaturas[i].abr_may_jun);
-      // "ago_sept_oct"
-      // "nov_dic_ene"
-      // "feb_mar"
-      // "abr_may_jun"
-
-      // es la suma de los 4 meses dividido entre 4
-      let promedio_asignaturas = sum_asignatura / 4;
-
-      console.log('promedio de las asignaturas', promedio_asignaturas)
-      return promedio_asignaturas;
-    }
+  asignaturas.forEach((object) => {
+    object.forEach((data) => {
+      console.log(typeof object, typeof data);
+    })
   });
 }
+
+// function getIdxAcademico(asignaturas) {
+//   asignaturas.forEach(element => {
+//     for (let i = 0; i < asignatura.length; i++) {
+//       let sum_asignatura = parseInt(asignaturas[i].ago_sept_oct) + parseInt(asignaturas[i].nov_dic_ene) + parseInt(asignaturas[i].feb_mar) + parseInt(asignaturas[i].abr_may_jun);
+//       // "ago_sept_oct"
+//       // "nov_dic_ene"
+//       // "feb_mar"
+//       // "abr_may_jun"
+
+//       // es la suma de los 4 meses dividido entre 4
+//       let promedio_asignaturas = sum_asignatura / 4;
+
+//       console.log('promedio de las asignaturas', promedio_asignaturas)
+//       return promedio_asignaturas;
+//     }
+//   });
+// }
 
 // const getIdxAcademico = (asignaturas) => {
 //   // es la suma de toda las asignaturas divido entre la cantidad de asignaturas
