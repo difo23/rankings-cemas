@@ -1,30 +1,30 @@
+function obtenerPromedio(asignatura) {
+  let promedio_asignatura = 0;
+
+  // promedio_asignatura = sum / cantidad_de_elementos;
+
+  // Retorna el promedio de los 4 meses Number 
+  return promedio_asignatura;
+}
+
+function indexToArr() {
+  // retorna el promedio de todas las asignaturas en un arreglo.
+  return [99, 97, 95, 97, 96, 100]
+}
+
+function promedioDeUnArreglo(arr) {
+  let promedio_arr = 0;
+
+  // promedio_arr = sum / cantidad_de_elementos;
+
+  // Returna el promedio de un arreglo.
+  return promedio_arr;
+}
+
 const getIdxAcademico = (asignaturas) => {
+  console.log('Promedio de indexToArr()', promedioDeUnArreglo(indexToArr()))
   if (asignaturas) {
-    let sum_asignatura = 0;
-    let promedio_asignatura = 0;
-    let sum_promedio_asignaturas = 0;
-    let promedio_academico = 0;
-
-    //Calculamos indx con asignaturas
-    asignaturas.forEach((element) => {
-      for (let i = 0; i < asignaturas.length; i++) {
-        sum_asignatura =
-          parseInt(asignaturas[i].ago_sept_oct) +
-          parseInt(asignaturas[i].nov_dic_ene) +
-          parseInt(asignaturas[i].feb_mar) +
-          parseInt(asignaturas[i].abr_may_jun);
-
-        // Suma de todos los meses divididos entre la cantidad de meses.
-        promedio_asignatura = sum_asignatura / 4;
-
-        console.log(typeof object, typeof data);
-        console.log("getIdxAcademico", asignaturas);
-        console.log("promedio de las asignaturas", promedio_asignatura);
-      }
-      promedio_academico += promedio_asignatura;
-    });
-    console.log("promedio academico:", promedio_academico);
-    return promedio_academico;
+      obtenerPromedio(asignaturas)    
   } else {
     // Return 0 si asignaturas es null o []
     return 0;
@@ -32,3 +32,31 @@ const getIdxAcademico = (asignaturas) => {
 };
 
 export default getIdxAcademico;
+
+// function obtenerPromedio(datos) {
+//   let sum_asignatura = 0;
+//   let promedio_asignatura = 0;
+//   let sum_promedio_asignaturas = 0;
+//   let promedio_academico = 0;
+// }
+
+// //Calculamos indx con asignaturas
+// asignaturas.forEach((element) => {
+//   for (let i = 0; i < asignaturas.length; i++) {
+//     sum_asignatura =
+//       parseInt(asignaturas[i].ago_sept_oct) +
+//       parseInt(asignaturas[i].nov_dic_ene) +
+//       parseInt(asignaturas[i].feb_mar) +
+//       parseInt(asignaturas[i].abr_may_jun);
+
+//     // Suma de todos los meses divididos entre la cantidad de meses.
+//     promedio_asignatura = sum_asignatura / 4;
+
+//     console.log(typeof object, typeof data);
+//     console.log("getIdxAcademico", asignaturas);
+//     console.log("promedio de las asignaturas", promedio_asignatura);
+//   }
+//   promedio_academico += promedio_asignatura;
+// });
+// console.log("promedio academico:", promedio_academico);
+// return promedio_academico;
