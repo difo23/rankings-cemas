@@ -8,7 +8,7 @@ const getIdxTecnico = (modulos, curso) => {
     case "5":
       // Recorrer los modulos
       modulos.forEach((asignatura, index) => {
-        sum_acumulado_modulos += asignatura.acumulado;
+        sum_acumulado_modulos += parseFloat (asignatura.acumulado);
         modulos_length = index;
       });
 
