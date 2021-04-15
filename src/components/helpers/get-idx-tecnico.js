@@ -1,5 +1,10 @@
 const getIdxTecnico = (modulos, curso) => {
- return 0;
+  let sum_acumulado_modulos = 0,
+    modulos_length = 0,
+    idx_tecnico = 0;
+
+  return 0;
 };
 
-export default  getIdxTecnico;
+ export default  getIdxTecnico;
+ 
