@@ -6,7 +6,7 @@ const getIdxAcademico = (asignaturas) => {
   if (asignaturas) {
     // Recorrer las asignaturas
     asignaturas.forEach((asignatura, index) => {
-      sum_calificacion_final += asignatura.cf;
+      sum_calificacion_final += parseFloat(asignatura.cf);
       asignaturas_length = index;
     });
 
