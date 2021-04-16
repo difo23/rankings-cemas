@@ -1,6 +1,6 @@
 
 
-export default function getIdxTecnico(modulos) {
+export default function getIdxTecnico(modulos, curso) {
 
     // Calcular idx tecnico
 
