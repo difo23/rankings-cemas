@@ -35,7 +35,7 @@ export default function ListaBoletines({ url }) {
 
 
             //obtener idx_academico
-            const idx_academico = getIdxAcademico(estudiante?.asignaturas);
+            const idx_academico = getIdxAcademico(estudiante.asignaturas);
 
             //obtener idx_tecnico
             const idx_tecnico = getIdxTecnico(estudiante?.modulos, estudiante?.curso);
