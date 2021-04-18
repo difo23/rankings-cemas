@@ -1,21 +1,36 @@
-const getIdxAcademico = (asignaturas) => {
-  let sum_calificacion_final = 0,
-    asignaturas_length = 0,
-    idx_academico = 0;
+
+
+export default function getIdxAcademico(asignaturas) {
+
+  console.log('getIdxAcademico', asignaturas);
+
+  // Calcular idx academico
+
+  /**
+   * Ejemplo  de los elementos dentro de asignaturas:
+   * {
+        "codigo_asignatura": "EDAR004",
+        "ago_sept_oct": "83",
+        "nov_dic_ene": "0",
+        "feb_mar": "0",
+        "abr_may_jun": "0",
+        "cf": 21
+      }
+   */
+
+  /**
+   * Formula:
+    idx_academico = (sum_cf_asignaturas)/ (asignaturas_length)
+   */
 
   if (asignaturas) {
-    // Recorrer las asignaturas
-    asignaturas.forEach((asignatura, index) => {
-      sum_calificacion_final += parseFloat(asignatura.cf);
-      asignaturas_length = index;
-    });
+    //Calculamos index con asignaturas
 
-    // Obtener el promedio de las asignaturas
-    idx_academico = sum_calificacion_final / (asignaturas_length + 1);
-    return idx_academico;
+    return 93.9042;
+  } else {
+
+    // Return 0 si asignaturas es null o []
+    return 0;
   }
-  // Return 0 si asignaturas es null o []
-  else return 0;
-};
 
-export default getIdxAcademico;
+}

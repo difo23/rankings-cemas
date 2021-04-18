@@ -1,10 +1,25 @@
-const getIdxGeneral = (idxAcademico, idxTecnico) => {
-  // Calculamos idx general si idx academica y idx tecnica existen.
-  if (idxAcademico && idxTecnico) return (idxTecnico + idxAcademico) / 2;
-  // Calculamos idx general si idx academica existe y idx tecnica no existe.
-  if (idxAcademico && !idxTecnico) return idxAcademico;
-  // De lo contrario retornamos 0 para evitar errores.
-  return 0;
-};
 
-export default getIdxGeneral;
+
+
+export default function getIdxGeneral(idxTecnico, idxAcademico) {
+
+    console.log('getIdxAcademica', idxTecnico, idxAcademico)
+    // Calcular idx general 
+    /**
+     * Formula si existe calificacion tecnica
+     * idx_general = (idx_tecnico + idx_academico)/ 2
+     * Si idxTecnico es 0 solo retornamos el idxAcademico
+     */
+
+    if (idxTecnico) {
+
+        // Calculamos idx general con promedio de academica y tecnica
+        // Uso valores random solo para probar el ordernamiento
+        return 99.4567 * Math.random();
+    } else {
+
+        return idxAcademico
+    }
+
+
+}
