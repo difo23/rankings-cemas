@@ -36,3 +36,4 @@ const getIdxTecnico = (modulos, curso) => {
 };
 
 export default getIdxTecnico;
+    
