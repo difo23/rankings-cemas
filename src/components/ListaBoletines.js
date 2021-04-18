@@ -41,7 +41,7 @@ export default function ListaBoletines({ url }) {
             const idx_tecnico = getIdxTecnico(estudiante?.modulos, estudiante?.curso);
 
             //obtener idx_general
-            const idx_general = getIdxGeneral(idx_tecnico, idx_academico);
+            const idx_general = getIdxGeneral(idx_academico, idx_tecnico);
 
             return {
                 ...estudiante,
