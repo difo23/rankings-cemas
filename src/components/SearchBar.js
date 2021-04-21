@@ -54,6 +54,9 @@ export default function SearchBar({ handleUrl }) {
                     <div className="col-2">
                         <button className="btn btn-outline-success " type="submit">Buscar</button>
                     </div>
+                    <div>
+                        
+                    </div>
                 </div>
             </form>
         </div>
