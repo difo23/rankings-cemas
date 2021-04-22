@@ -1,6 +1,6 @@
 const ItemBoletin = () => {
   return (
-    null // Aqui va el menú
+    <h1>Hola Menu</h1> // Aqui va el menú
   );
 };
 
