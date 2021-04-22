@@ -1,6 +1,10 @@
 const Menu = () => {
   return (
-    <h1>Hola Menu</h1> // Aqui va el menú
+  <header>
+    <nav>
+      Menu
+    </nav>
+  </header>
   );
 };
 
