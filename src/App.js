@@ -1,8 +1,7 @@
-
-
 import { useState } from 'react';
 import ListaBoletines from './components/ListaBoletines';
 import SearchBar from './components/SearchBar';
+import Menu from './components/Menu';
 
 function App() {
 
@@ -15,6 +14,7 @@ function App() {
 
   return (
     <div className="container">
+      <Menu />
       <div className="row mt-4">
 
         <div className="col">
