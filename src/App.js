@@ -1,6 +1,6 @@
 
 import {db, googleAuthProvider, firebase} from "./config/firebase";
-import  Button  from "./components/Button";
+import  Button  from "./components/Login";
 import { useState } from 'react';
 import ListaBoletines from './components/ListaBoletines';
 import SearchBar from './components/SearchBar';
