@@ -56,10 +56,10 @@ export default function SearchBar({ handleUrl }) {
                     </div>
                     <div id="dropdown">
                         <select id="filter">
-		                 <option value="num-lis ">Numero de la list</option>
-		                 <option value="1dx-generaa">Indice general Default</option>
-		                 <option value="1dx-academic ">Indice academic</option>
-		                 <option value="0dx-tecnic ">Indice tecnic</option>
+		                 <option value="num-lis ">Número de la lista</option>
+		                 <option value="1dx-generaa">Índice general (Default)</option>
+		                 <option value="1dx-academic ">Índice academico</option>
+		                 <option value="0dx-tecnic ">Índice tecnico</option>
                     </select>
                     </div>
                 </div>
