@@ -1,7 +1,11 @@
-import { useState } from "react";
-import ListaBoletines from "./components/ListaBoletines";
-import SearchBar from "./components/SearchBar";
+import {db, googleAuthProvider, firebase} from "./config/firebase";
+import  Button  from "./components/Login";
+import { useState } from 'react';
+import ListaBoletines from './components/ListaBoletines';
+import SearchBar from './components/SearchBar';
 import Menu from "./components/Menu";
+import { signInWithGoogle } from "./login";
+import './config/firebase';
 
 function App() {
   const [state, setState] = useState(null);
@@ -35,6 +39,10 @@ function App() {
             {state && <ListaBoletines url={state} />}
           </div>
         </div>
+      </div>
+
+      <div>
+         <Button onClick={signInWithGoogle} > Sign in with Google</Button>
       </div>
     </div>
   );
