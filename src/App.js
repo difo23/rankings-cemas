@@ -1,8 +1,11 @@
 
-
+import {db, googleAuthProvider, firebase} from "./config/firebase";
+import  Button  from "./components/Button";
 import { useState } from 'react';
 import ListaBoletines from './components/ListaBoletines';
 import SearchBar from './components/SearchBar';
+import { signInWithGoogle } from "./login";
+import './config/firebase';
 
 function App() {
 
@@ -36,6 +39,10 @@ function App() {
           <hr />
           {state && <ListaBoletines url={state} />}
         </div>
+      </div>
+
+      <div>
+         <Button onClick={signInWithGoogle} > Sign in with Google</Button>
       </div>
 
     </div>
