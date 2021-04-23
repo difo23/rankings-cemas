@@ -1,5 +1,5 @@
 
-const Button = ({ 
+const Login = ({ 
     onClick = null, 
     children = null 
 }) => 
@@ -7,4 +7,4 @@ const Button = ({
     <button onClick={onClick}> {children} </button>
   );
   
-  export default Button;
+  export default Login;
