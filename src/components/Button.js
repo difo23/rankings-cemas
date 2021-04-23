@@ -4,7 +4,7 @@ const Button = ({
     children = null 
 }) => 
 (
-    
+    <button onClick={onClick}> {children} </button>
   );
   
   export default Button;
