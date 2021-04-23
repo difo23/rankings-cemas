@@ -5,7 +5,7 @@ Este es un proyecto escolar grupal, que consiste en crear una App con React, Boo
 Este proyecto esta hecho con [Create React App](https://github.com/facebook/create-react-app).
 
 
-## Link de los reportes del proyecto
+Link de los reportes del proyecto 
 
 [Reportes](https://drive.google.com/drive/folders/1sJdno7Qg00N_rRsHNCbQpDaTjWBCEIAA).
 
