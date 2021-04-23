@@ -55,10 +55,12 @@ export default function SearchBar({ handleUrl }) {
                         <button className="btn btn-outline-success " type="submit">Buscar</button>
                     </div>
                     <div id="dropdown">
+                        <select>
 		                 <option value="num-lis ">Numero de la list</option>
 		                 <option value="1dx-generaa">Indice general Default</option>
 		                 <option value="1dx-academic ">Indice academic</option>
 		                 <option value="0dx-tecnic ">Indice tecnic</option>
+                    </select>
                     </div>
                 </div>
             </form>
