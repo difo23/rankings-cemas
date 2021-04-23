@@ -1,70 +1,113 @@
-# Getting Started with Create React App
+# Introducción
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este es un proyecto escolar grupal, que consiste en crear una App con React, Bootstrap y Firebase. Se requiere ordenar el listado de estudiantes según su calificación promedio. Todos estos datos son obtenidos desde un JSON con un reporte de los restudiantes del centro.
 
-## Available Scripts
+Este proyecto esta hecho con [Create React App](https://github.com/facebook/create-react-app).
 
-In the project directory, you can run:
 
-### `yarn start`
+## Capturas de pantalla
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![](./assets/img/main-section.png)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Scripts
 
-### `yarn test`
+En este proyecto puedes correr los siguientes Scripts:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `yarn install` o `npm install`
 
-### `yarn build`
+Para instalar los módulos necesarios de Node.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### `yarn start` o ``npm start``
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Ejecuta la aplicación en el modo de desarrollo. \
+Abra [http://localhost:3000](http://localhost:3000) para visualizarlo en el navegador.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+La página se recargará si realiza modificaciones. \
+También verá cualquier error por la consola.
 
-### `yarn eject`
+### `yarn run predeploy` o `npm run predeploy`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Construye la aplicación para producción en la carpeta `build`. \
+Agrupa correctamente React en el modo de producción y optimiza la compilación para obtener el mejor rendimiento.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+La compilación se minimiza y los nombres de archivo incluyen los hash. \
+¡Tu aplicación está lista para salir a producción!
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Para mas información visita la sección [deployment](https://facebook.github.io/create-react-app/docs/deployment). 
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### `yarn run deploy` o `npm run deploy`
 
-## Learn More
+Publica la aplicación usando GH Pages.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<!-- 
+## Firebase
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Aquí va la explicación de como conectar la DB. 
+-->
 
-### Code Splitting
+## Contribución
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Crea un Fork del repositorio.
+2. Clonar en tu maquina mediante `git clone url_del_repositorio_fork`.
+3. Crear una nueva rama con el nombre de tu feature.
+4. Realiza tus cambios.
+5. Manda tu pull request a la rama `pre-production`.
 
-### Analyzing the Bundle Size
+## Mantener actualizado tu Fork
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Una vez tenga clonado el repositorio Fork en tu PC, lo primero que tienes que hacer es crear un remoto al repositorio principal usando: `git remote add upstream https://github.com/adonyssantos/rankings-cemas.git`. **(Esto solo lo tienes que hacer una vez).**
 
-### Making a Progressive Web App
+Luego cada vez que se haga un cambio en el repositorio principal y lo quieras traer a tu fork usa los siguientes comandos:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. `git pull upstream main`
+2. `git push origin main`
 
-### Advanced Configuration
+**Nota:** recuerda estar ubicado dentro de la rama que quieres actualizar.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Aquí unos enlaces con información que podria serte util:
+1. https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork#platform-linux
+2. https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork#platform-linux
 
-### Deployment
+ ## El primer paso del algoritmo es obtener los reportes por curso y periodo:      
+ `4A:2020-2021`
+ 
+ ### Para llevar acabo la peticion de los reportes debemos usar: 
+ #### La funcion para crear la URL que solicita los reportes al API: 
+ La siguiente funcion nos sirve para formar la URL para el pedido de reportes: 
+ ```js
+ const getReportsURL = (curso, periodo) => {
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+	/**
+	 * @description: Obtener todos los reportes por curso y periodo. 
+	 * @param	{String}	curso Ejemplo: "4A"
+	 * @param	{String}	Periodo Ejemplo: "2020-2021"
+	 * @URL https://cemasapi.herokuapp.com/reportes/boletin/4A:2020-2021:
+	 * @return  {String}	URL	 String URL .
+	 */
+...
+};
+ ```
+ 
+#### El hook para gestionar los fecth al API:
 
-### `yarn build` fails to minify
+El hook que creamos es `useFetch`
+```js
+import { useState, useEffect, useRef } from 'react';
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+export const useFetch = (url) => {
+...
+}
+```
+
+#### El componente que hace la peticion y usa el useFetch:
+
+```js
+import { useFetch } from "../hooks/useFetch";
+import ItemBoletin from "./ItemBoletin";
+
+
+export default function ListaBoletines({ url }) {
+...
+}
+```
