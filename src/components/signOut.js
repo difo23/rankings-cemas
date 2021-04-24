@@ -3,3 +3,4 @@ const signOut = () => {
       <button type="button">Salir</button>
     );
   };
+  export default signOut;
