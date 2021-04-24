@@ -1,5 +1,5 @@
 const signOut = () => {
     return (
-      // Boton
+      <button type="button">Salir</button>
     );
   };
