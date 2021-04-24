@@ -8,7 +8,7 @@ const Menu = () => {
           <img class="logo" src="../../assets/imgs/logo.png" alt="" />
           <h1 class="title">Ranking Cemas</h1>
         </div>
-        {/* Boton para salir dentro de un Div */}
+        <Salir />
     </nav>
   </header>
   );
