@@ -1,3 +1,5 @@
+import Salir from './signOut';
+
 const Menu = () => {
   return (
   <header>
