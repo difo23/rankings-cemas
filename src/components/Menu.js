@@ -1,3 +1,5 @@
+import Salir from './signOut';
+
 const Menu = () => {
   return (
   <header>
@@ -6,7 +8,9 @@ const Menu = () => {
           <img class="logo" src="../../assets/imgs/logo.png" alt="" />
           <h1 class="title">Ranking Cemas</h1>
         </div>
-        {/* Boton para salir dentro de un Div */}
+        <div>
+        <Salir />
+        </div>
     </nav>
   </header>
   );
