@@ -1,5 +1,5 @@
 import {db, googleAuthProvider, firebase} from "./config/firebase";
-import  Button  from "./components/Login";
+import  SingIn  from "./components/SingIn";
 import { useState } from 'react';
 import ListaBoletines from './components/ListaBoletines';
 import SearchBar from './components/SearchBar';
@@ -42,7 +42,7 @@ function App() {
       </div>
 
       <div>
-         <Button onClick={signInWithGoogle} > Sign in with Google</Button>
+         <SingIn onClick={signInWithGoogle} > Sign in with Google</SingIn>
       </div>
     </div>
   );

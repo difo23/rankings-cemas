@@ -1,6 +1,6 @@
-const signOut = () => {
+const SignOut = () => {
     return (
       <button type="button">Salir</button>
     );
   };
-  export default signOut;
+  export default SignOut;

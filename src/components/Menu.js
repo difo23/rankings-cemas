@@ -1,4 +1,4 @@
-import Salir from './signOut';
+import Salir from './SignOut';
 
 const Menu = () => {
   return (
