@@ -1,6 +1,10 @@
-const SignOut = () => {
-    return (
-      <button type="button">Salir</button>
-    );
-  };
-  export default SignOut;
+
+const SingOut = ({ 
+    onClick = null, 
+    children = null 
+}) => 
+(
+    <button onClick={onClick}> {children} </button>
+  );
+  
+  export default SingOut;
