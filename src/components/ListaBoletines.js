@@ -7,7 +7,7 @@ import {
     orderByIdx
 } from "./helpers";
 
-export default function ListaBoletines({ url }) {
+export default  function ListaBoletines({ url }) {
 
     console.log("Lista Boletines URL: ", url);
     //{ data: null, loading: true, error: null }
@@ -42,7 +42,12 @@ export default function ListaBoletines({ url }) {
 
             //obtener idx_general
             const idx_general = getIdxGeneral(idx_academico, idx_tecnico);
+            
+            //obtener curso
+            const curso = estudiante.curso;
 
+            console.log (curso);
+            
             return {
                 ...estudiante,
                 idx_academico,
