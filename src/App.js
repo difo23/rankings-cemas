@@ -1,7 +1,8 @@
-import {db, googleAuthProvider, firebase} from "./config/firebase";
+import { firebase } from "./config/firebase";
 import  ButtonSingIn  from "./components/ButtonSingIn";
 import  ButtonSingOut  from "./components/ButtonSignOut";
 import { useState } from 'react';
+import { useAuthState } from './hooks';
 import ListaBoletines from './components/ListaBoletines';
 import SearchBar from './components/SearchBar';
 import Menu from "./components/Menu";
@@ -16,6 +17,15 @@ function App() {
   const handleUrl = (url) => {
     setState(url);
   };
+  const { user, itializing } = useAuthState(firebase.auth());
+  const renderLoading = () => {
+    if (itializing)
+      return (
+        <div>
+          <h3>Loadinng...</h3>
+        </div>
+      );
+  }; 
 
   return (
     <div id="ranking">
@@ -42,15 +52,17 @@ function App() {
           </div>
         </div>
       </div>
-
+          
       <div>
-        {
-          true ? (
+        
+         {renderLoading()}
+      { user? (
           <>
-          <ButtonSingIn onClick={signInWithGoogle} > Sign in with Google</ButtonSingIn>
+          <ButtonSingOut onClick={ singOut } > Salir </ButtonSingOut>
           </>
-        ): <ButtonSingOut onClick={ singOut } > Salir </ButtonSingOut>
-        }
+        ): (
+          <ButtonSingIn onClick={signInWithGoogle} > Sign in with Google</ButtonSingIn>
+        )}
         
       </div>
     </div>
