@@ -28,9 +28,12 @@ function App() {
   }; 
 
   return (
-    <div id="ranking">
-      <Menu />
-      <div className="container">
+    <div>   
+         {renderLoading()}
+      { user? (
+          <>
+            <Menu />
+      <div className="container" id="ranking">
         <div className="row mt-4">
           <div className="col">
             <h1>Ranking:</h1>
@@ -52,20 +55,12 @@ function App() {
           </div>
         </div>
       </div>
-          
-      <div>
-        
-         {renderLoading()}
-      { user? (
-          <>
-          <ButtonSingOut onClick={ singOut } > Salir </ButtonSingOut>
           </>
         ): (
           <ButtonSingIn onClick={signInWithGoogle} > Sign in with Google</ButtonSingIn>
         )}
         
       </div>
-    </div>
   );
 }
 
