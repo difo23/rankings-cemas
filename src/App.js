@@ -1,11 +1,13 @@
-import {db, googleAuthProvider, firebase} from "./config/firebase";
-import  Button  from "./components/Login";
+import { firebase } from "./config/firebase";
+import  ButtonSingIn  from "./components/ButtonSingIn";
 import { useState } from 'react';
+import { useAuthState } from './hooks';
 import ListaBoletines from './components/ListaBoletines';
 import SearchBar from './components/SearchBar';
 import Menu from "./components/Menu";
 import { signInWithGoogle } from "./login";
 import './config/firebase';
+
 
 function App() {
   const [state, setState] = useState(null);
@@ -14,11 +16,23 @@ function App() {
   const handleUrl = (url) => {
     setState(url);
   };
+  const { user, itializing } = useAuthState(firebase.auth());
+  const renderLoading = () => {
+    if (itializing)
+      return (
+        <div>
+          <h3>Loadinng...</h3>
+        </div>
+      );
+  }; 
 
   return (
-    <div id="ranking">
-      <Menu />
-      <div className="container">
+    <div>   
+         {renderLoading()}
+      { user? (
+          <>
+            <Menu />
+      <div className="container" id="ranking">
         <div className="row mt-4">
           <div className="col">
             <h1>Ranking:</h1>
@@ -40,11 +54,12 @@ function App() {
           </div>
         </div>
       </div>
-
-      <div>
-         <Button onClick={signInWithGoogle} > Sign in with Google</Button>
+          </>
+        ): (
+          <ButtonSingIn onClick={signInWithGoogle} > Sign in with Google</ButtonSingIn>
+        )}
+        
       </div>
-    </div>
   );
 }
 

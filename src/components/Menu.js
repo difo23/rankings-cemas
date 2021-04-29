@@ -1,4 +1,5 @@
-import Salir from './signOut';
+import ButtonSingOut from './ButtonSignOut';
+import singOut from '../login/signOut';
 
 const Menu = () => {
   return (
@@ -9,7 +10,8 @@ const Menu = () => {
           <h1 class="title">Ranking Cemas</h1>
         </div>
         <div>
-        <Salir />
+        <ButtonSingOut onClick={ singOut } > Salir </ButtonSingOut>
+         
         </div>
     </nav>
   </header>
