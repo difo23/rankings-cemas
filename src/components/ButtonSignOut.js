@@ -1,5 +1,5 @@
 
-const SingIn = ({ 
+const ButtonSingOut = ({ 
     onClick = null, 
     children = null 
 }) => 
@@ -7,4 +7,4 @@ const SingIn = ({
     <button onClick={onClick}> {children} </button>
   );
   
-  export default SingIn;
+  export default ButtonSingOut;
