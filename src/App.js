@@ -1,11 +1,13 @@
 import {db, googleAuthProvider, firebase} from "./config/firebase";
-import  SingIn  from "./components/SingIn";
+import  ButtonSingIn  from "./components/ButtonSingIn";
+import  ButtonSingOut  from "./components/ButtonSignOut";
 import { useState } from 'react';
 import ListaBoletines from './components/ListaBoletines';
 import SearchBar from './components/SearchBar';
 import Menu from "./components/Menu";
-import { signInWithGoogle } from "./login";
+import { signInWithGoogle, singOut } from "./login";
 import './config/firebase';
+
 
 function App() {
   const [state, setState] = useState(null);
@@ -42,7 +44,14 @@ function App() {
       </div>
 
       <div>
-         <SingIn onClick={signInWithGoogle} > Sign in with Google</SingIn>
+        {
+          true ? (
+          <>
+          <ButtonSingIn onClick={signInWithGoogle} > Sign in with Google</ButtonSingIn>
+          </>
+        ): <ButtonSingOut onClick={ singOut } > Salir </ButtonSingOut>
+        }
+        
       </div>
     </div>
   );
