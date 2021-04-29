@@ -1,12 +1,11 @@
 import { firebase } from "./config/firebase";
 import  ButtonSingIn  from "./components/ButtonSingIn";
-import  ButtonSingOut  from "./components/ButtonSignOut";
 import { useState } from 'react';
 import { useAuthState } from './hooks';
 import ListaBoletines from './components/ListaBoletines';
 import SearchBar from './components/SearchBar';
 import Menu from "./components/Menu";
-import { signInWithGoogle, singOut } from "./login";
+import { signInWithGoogle } from "./login";
 import './config/firebase';
 
 
