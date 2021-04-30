@@ -26,6 +26,9 @@ function App() {
       );
   }; 
 
+  const curso = '6D';
+  const periodo = '2020-2021';
+
   return (
     <div>   
          {renderLoading()}
@@ -48,7 +51,7 @@ function App() {
 
         <div className="row mt-4">
           <div className="col mt-4 ml-5 mr-5 mb-5">
-            <h3>Lista de boletines:</h3>
+            <h3>Lista de boletines de {curso} ({periodo}):</h3>
             <hr />
             {state && <ListaBoletines url={state} />}
           </div>
