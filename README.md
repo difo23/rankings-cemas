@@ -19,6 +19,9 @@ Nuestra app **RANKING CEMAS** se realiza de una forma fácil, nosotros buscamos 
 
 #Esta hace lo siguiente:
 
+*ordenar el listado de estudiantes según su numero de listado.*
+*ordenar el listado de estudiantes según su índice académico.*
+
 ## Scripts
 
 En este proyecto puedes correr los siguientes Scripts:
