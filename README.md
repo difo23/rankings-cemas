@@ -46,6 +46,10 @@ Nuestra app **RANKING CEMAS** se realiza de una forma fácil, nosotros buscamos 
 * Solos los del centro podrán tomar información de la app.
 * Bien elaborado.
 
+## Desventajas
+
+
+
 ## Scripts
 
 En este proyecto puedes correr los siguientes Scripts:
