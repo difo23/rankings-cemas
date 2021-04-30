@@ -48,8 +48,10 @@ Nuestra app **RANKING CEMAS** se realiza de una forma fácil, nosotros buscamos 
 
 ## Desventajas
 
+ * La app puede ser hackeada para tomar información.
+* El sistema puede caerse después de un tiempo.
 
-
+ 
 ## Scripts
 
 En este proyecto puedes correr los siguientes Scripts:
