@@ -25,6 +25,17 @@ Nuestra app **RANKING CEMAS** se realiza de una forma fácil, nosotros buscamos 
 
 ## Que contiene la app
 
+-Lista de estudiante.
+ -Tiene una barra de búsqueda para filtrar los estudiantes por curso.
+ -Tiene una barra de búsqueda para filtrar los estudiantes por periodo.
+-Tiene una barra de búsqueda para filtrar los estudiantes por índice.
+-Muestra el listado de estudiantes con su índice académico.
+-Muestra el listado de estudiantes con su índice técnico.
+-Muestra el listado de estudiantes con su índice general. 
+-Ordena el listado de estudiantes según su índice genera.
+-Obtiene la información desde base de datos del centro educativo. 
+-Cuenta con un sistema de inicio de sesion.
+-Evitar que personas externas al centro accedan a la informacio
 ## Scripts
 
 En este proyecto puedes correr los siguientes Scripts:
