@@ -10,7 +10,7 @@ Este proyecto esta hecho con [Create React App](https://github.com/facebook/crea
 ![](./assets/img/main-section.png)
 
 # De que trata esta aplicación
-
+Esta app se trata o se basa en poder sacar **promedio a las calificaciones**, esta calcula los **índices académico ,**también las calificaciones generales** y las técnicas**  de cada uno los estudiantes del centro y contara demostrar la lista de los estudiantes por el Bom ordenado según las calificación con un estilo simple. 
 
 ## Scripts
 
