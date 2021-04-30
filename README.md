@@ -15,7 +15,7 @@ Esta app se trata o se basa en poder sacar **promedio a las calificaciones**, es
 
 # Como lo hacemos 
 
-Nuestra app **RANKING CEMAS** se realiza de una forma fácil, nosotros buscamos la forma de programar cada cosa y buscar los códigos y programas necesarios para que nos pudiera ir funcionando.
+Nuestra app **RANKING CEMAS** se realiza de una forma fácil, nosotros buscamos la forma de programar cada cosa y buscar los códigos y programas necesarios para que nos pudiera ir funcionando, la otra parte del equipo nos esta informando con la fasibilidad que se esta realizando, se formaron grupos que están trabajando en distintas funciones de la app.
 
 ## Scripts
 
