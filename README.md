@@ -53,7 +53,7 @@ Nuestra app **RANKING CEMAS** se realiza de una forma fácil, nosotros buscamos 
 
  # # Beneficios
  
- 
+ Esta es una app que todos los estudiantes y maestros podremos utilizar con la fasibilidad de poder adquirir y poner las calificaciones, con esta app no tendremos que ver en una hoja que calificación tenemos solo entrar a la pagina y ver cual es tu calificación, se le ara mas fácil a los maestro porque solo tendrán que poner los numero y directamente le mandara la calificación y promedio.
  
 ## Scripts
 
