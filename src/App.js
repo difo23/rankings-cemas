@@ -26,8 +26,7 @@ function App() {
       );
   }; 
 
-  const curso = '6D';
-  const periodo = '2020-2021';
+  const {curso, periodo} = cursoPeriodo;
 
   return (
     <div>   

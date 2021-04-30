@@ -1,9 +1,6 @@
 import React, { useState } from 'react'
 
-export default function ItemBoletin({ estudiante }) {
-
-    const [active, setactive] = useState('')
-
+const ItemBoletin = ({ estudiante }) => {
     return (
         <div>
             <li className={`list-group-item list-group-item-action ${active}`}>
@@ -30,3 +27,5 @@ export default function ItemBoletin({ estudiante }) {
         </div>
     )
 }
+
+export default ItemBoletin;
