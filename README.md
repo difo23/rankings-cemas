@@ -9,6 +9,9 @@ Este proyecto esta hecho con [Create React App](https://github.com/facebook/crea
 
 ![](./assets/img/main-section.png)
 
+# De que trata esta aplicación
+
+
 ## Scripts
 
 En este proyecto puedes correr los siguientes Scripts:
