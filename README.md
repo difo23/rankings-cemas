@@ -17,10 +17,12 @@ Esta app se trata o se basa en poder sacar **promedio a las calificaciones**, es
 
 Nuestra app **RANKING CEMAS** se realiza de una forma fácil, nosotros buscamos la forma de programar cada cosa y buscar los códigos y programas necesarios para que nos pudiera ir funcionando.
 
-#Esta hace lo siguiente:
 
+ # Esta hace lo siguiente:
+  
 *ordenar el listado de estudiantes según su numero de listado.*
 *ordenar el listado de estudiantes según su índice académico.*
+
 
 ## Scripts
 
