@@ -125,4 +125,13 @@ Los reportes se realizan para documentar todo lo que se hace en las reuniones, l
 * Participacion de los estudiantes (Evidencias).
 * Evidencias de todo el proceso del dia. 
 
+# **Links de los reportes**
+
+* [Reporte #1](https://drive.google.com/file/d/1C-6O4Fa5qUB1mIKsrOOOKSGsqaWN7R04/view?usp=sharing)
+* [Reporte #2](https://drive.google.com/file/d/1lxoV097lWk91a0jvbXuhaBoYxHyfdpg0/view?usp=sharing)
+* [Reporte #3](https://drive.google.com/file/d/17LJS4KYG257YRf_d0pU9Tcmc4OMp8Y6q/view?usp=sharing)
+
+
+
+
 
