@@ -111,3 +111,18 @@ export default function ListaBoletines({ url }) {
 ...
 }
 ```
+
+## Informaciones de los reportes y las metodologias utilizadas
+
+Los reportes se realizan para documentar todo lo que se hace en las reuniones, las tareas u otras actividades relacionadas con el proyecto.
+
+**Estructura de los reportes**
+
+* Nombre y numero del reporte.
+* Descripcion del reporte.
+* Detalles de la reunion.
+* Logros y observaciones.
+* Participacion de los estudiantes (Evidencias).
+* Evidencias de todo el proceso del dia. 
+
+
