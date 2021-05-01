@@ -35,7 +35,7 @@ Nuestra app **RANKING CEMAS** se realiza de una forma fácil, nosotros buscamos 
 -Ordena el listado de estudiantes según su índice genera.
 -Obtiene la información desde base de datos del centro educativo. 
 -Cuenta con un sistema de inicio de sesion.
--Evitar que personas externas al centro accedan a la informacion.
+-Evitar que personas externas al centro accedan a la información.
 
 ## Ventajas
 
