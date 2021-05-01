@@ -35,11 +35,6 @@ function App() {
       <div className="container" id="ranking">
         <div className="row mt-4">
           <div className="col">
-          </div>
-        </div>
-
-        <div className="row mt-4">
-          <div className="col">
             <SearchBar handleUrl={handleUrl} />
           </div>
         </div>
@@ -56,7 +51,6 @@ function App() {
         ): (
           <ButtonSingIn onClick={signInWithGoogle} > Sign in with Google</ButtonSingIn>
         )}
-        
       </div>
   );
 }
