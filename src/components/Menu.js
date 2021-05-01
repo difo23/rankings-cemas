@@ -3,19 +3,20 @@ import singOut from '../login/signOut';
 
 const Menu = () => {
   return (
-  <header>
-    <nav>
-    <div class="cemas">
-          <img class="logo" src="../../assets/imgs/logo.png" alt="" />
-          <h1 class="title">Ranking Cemas</h1>
+  <div className="menu container-fluid">
+    <div className="row">
+      <header className="col-lg-12">
+        <div class="cemas">
+          <img className="logo" src="https://i.imgur.com/KT8UtmZ.png" alt=""/>
+          <h1 className="title">Ranking Cemas</h1>
         </div>
-        <div>
-        <ButtonSingOut onClick={ singOut } > Salir </ButtonSingOut>
-         
-        </div>
-    </nav>
-  </header>
+        <ButtonSingOut onClick={ singOut }> Salir </ButtonSingOut> 
+      </header>
+    </div>  
+  </div>
+  
   );
 };
 
 export default Menu;
+

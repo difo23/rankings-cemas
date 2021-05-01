@@ -27,19 +27,12 @@ function App() {
   }; 
 
   return (
-    <div>   
+    <div>
          {renderLoading()}
       { user? (
           <>
             <Menu />
       <div className="container" id="ranking">
-        <div className="row mt-4">
-          <div className="col">
-            <h1>Ranking:</h1>
-            <hr />
-          </div>
-        </div>
-
         <div className="row mt-4">
           <div className="col">
             <SearchBar handleUrl={handleUrl} />
@@ -58,7 +51,6 @@ function App() {
         ): (
           <ButtonSingIn onClick={signInWithGoogle} > Sign in with Google</ButtonSingIn>
         )}
-        
       </div>
   );
 }
