@@ -27,7 +27,7 @@ function App() {
   }; 
 
   return (
-    <div>   
+    <div>
          {renderLoading()}
       { user? (
           <>
@@ -36,7 +36,6 @@ function App() {
         <div className="row mt-4">
           <div className="col">
             <h1>Ranking:</h1>
-            <hr />
           </div>
         </div>
 
