@@ -35,7 +35,6 @@ function App() {
       <div className="container" id="ranking">
         <div className="row mt-4">
           <div className="col">
-            <h1>Ranking:</h1>
           </div>
         </div>
 
