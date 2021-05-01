@@ -134,5 +134,8 @@ Los reportes se realizan para documentar todo lo que se hace en las reuniones, l
 * [Reporte #5](https://drive.google.com/file/d/1wnrykflRo6GLSj_Be7bre1RM2nHuJgSj/view?usp=sharing)
 * [Reporte #6](https://drive.google.com/file/d/1a0uSA0TkfzPfEVjPAGw7Bi_HQh5jFH1y/view?usp=sharing)
 * [Reporte #7](https://drive.google.com/file/d/17bCcvfX2k4xvZqR55zkVpuWFeI984QfV/view?usp=sharing)
+* [Reporte #8](https://drive.google.com/file/d/1T7V0XwykXjjyu2A1VIXe-_SCYuKug9u5/view?usp=sharing)
+* [Reporte #9](https://drive.google.com/file/d/1v9bSMpJmQ4DzXBxpaKZxomm7leoMVvzJ/view?usp=sharing)
+* [Reporte #10](https://drive.google.com/file/d/1JE9Ej9c9uxn0OqV5Ss3kM4X09T8Vg0hP/view?usp=sharing)
 
 
