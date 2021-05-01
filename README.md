@@ -23,7 +23,7 @@ Nuestra app **RANKING CEMAS** se realiza de una forma fácil, nosotros buscamos 
 *ordenar el listado de estudiantes según su numero de listado.*
 *ordenar el listado de estudiantes según su índice académico.*
 
-## Que contiene la app
+## Que contiene la app:
 
 * Lista de estudiante.
 * Tiene una barra de búsqueda para filtrar los estudiantes por curso.
