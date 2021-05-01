@@ -13,7 +13,7 @@ Este proyecto esta hecho con [Create React App](https://github.com/facebook/crea
 
 Esta app se trata o se basa en poder sacar **promedio a las calificaciones**, esta calcula los **índices académico ,**también las calificaciones generales** y las técnicas**  de cada uno los estudiantes del centro y contara demostrar la lista de los estudiantes por el Bom ordenado según las calificación con un estilo simple. 
 
-# Como lo hacemos 
+# Como lo hacemos :
 
 Nuestra app **RANKING CEMAS** se realiza de una forma fácil, nosotros buscamos la forma de programar cada cosa y buscar los códigos y programas necesarios para que nos pudiera ir funcionando.
 
