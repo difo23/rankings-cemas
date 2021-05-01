@@ -26,9 +26,9 @@ Nuestra app **RANKING CEMAS** se realiza de una forma fácil, nosotros buscamos 
 ## Que contiene la app
 
 * Lista de estudiante.
- * Tiene una barra de búsqueda para filtrar los estudiantes por curso.
- * Tiene una barra de búsqueda para filtrar los estudiantes por periodo.
- * Tiene una barra de búsqueda para filtrar los estudiantes por índice.
+* Tiene una barra de búsqueda para filtrar los estudiantes por curso.
+* Tiene una barra de búsqueda para filtrar los estudiantes por periodo.
+* Tiene una barra de búsqueda para filtrar los estudiantes por índice.
 * Muestra el listado de estudiantes con su índice académico.
 * Muestra el listado de estudiantes con su índice técnico.
 * Muestra el listado de estudiantes con su índice general. 
