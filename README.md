@@ -37,7 +37,7 @@ Nuestra app **RANKING CEMAS** se realiza de una forma fácil, nosotros buscamos 
 * Cuenta con un sistema de inicio de sesión.
 * Evitar que personas externas al centro accedan a la información.
 
-## Ventajas
+## Ventajas:
 
 * Mas facibilidad a los maestros.
 * Las calificaciones salen correctamente.
