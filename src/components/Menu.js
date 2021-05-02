@@ -7,12 +7,12 @@ const Menu = () => {
     <div className="row">
       <header className="col-lg-12">
         <div class="cemas">
-          <img className="logo" src="../../assets/img/cemas_logo.png" alt=""/>
+          <img className="logo" src="https://i.imgur.com/KT8UtmZ.png" alt=""/>
           <h1 className="title">Ranking Cemas</h1>
         </div>
         <ButtonSingOut onClick={ singOut }> Salir </ButtonSingOut> 
       </header>
-    </div>
+    </div>  
   </div>
   
   );
