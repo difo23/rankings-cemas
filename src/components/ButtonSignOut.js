@@ -4,7 +4,7 @@ const ButtonSingOut = ({
     children = null 
 }) => 
 (
-    <button onClick={onClick}> {children} </button>
+    <button className="log_out" onClick={onClick}> {children} </button>
   );
   
-  export default ButtonSingOut;
+export default ButtonSingOut;
