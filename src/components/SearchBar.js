@@ -44,7 +44,19 @@ export default function SearchBar({ handleUrl }) {
                         />
                     </label>
 
+                    <label class="col-md-3 col-sm-6">
+                        <span>Periodo</span>
+                        <input
+                            type="text"
+                            className="periodo"
+                            placeholder="2020-2021"
+                            name="periodo"
+                            value={periodo}
+                            onChange={handleInputChange}
+                        />
+                    </label>
 
+                    
 
                 </div>
                 
