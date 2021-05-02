@@ -34,7 +34,7 @@ export default function SearchBar({ handleUrl }) {
                     <div className="col-5">
                         <input
                             type="text"
-                            className="form-control"
+                            className="curso"
                             placeholder="Curso"
                             name="curso"
                             value={curso}
@@ -44,7 +44,7 @@ export default function SearchBar({ handleUrl }) {
                     <div className="col-5">
                         <input
                             type="text"
-                            className="form-control"
+                            className="periodo"
                             placeholder="Periodo"
                             name="periodo"
                             value={periodo}
