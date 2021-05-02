@@ -68,4 +68,10 @@ button.buscar:hover{
     color: rgb(53, 150, 189);
 }
 
+/* Ordenar */
 
+select.dropdown{
+    padding: .85vw;
+    width: 65%;
+    cursor: pointer;
+}

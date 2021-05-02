@@ -28,42 +28,27 @@ export default function SearchBar({ handleUrl }) {
     }
 
     return (
-        <div>
-            <form onSubmit={loadRecords}>
-                <div className="form-row ml-5">
-                    <div className="col-5">
+            <nav>
+                <form onSubmit={loadRecords}>
+                    <div className="form-row ml-5">
+
+                    <label class="col-md-3 col-sm-6">
+                        <span>Curso</span>
                         <input
                             type="text"
                             className="curso"
-                            placeholder="Curso"
+                            placeholder="6D"
                             name="curso"
                             value={curso}
                             onChange={handleInputChange}
                         />
-                    </div>
-                    <div className="col-5">
-                        <input
-                            type="text"
-                            className="periodo"
-                            placeholder="Periodo"
-                            name="periodo"
-                            value={periodo}
-                            onChange={handleInputChange}
-                        />
-                    </div>
-                    <div className="col-2">
-                        <button className="buscar" type="submit">Buscar</button>
-                    </div>
-                    <div id="dropdown">
-                        <select id="filter">
-                            <option value="num-lista">Número de la Lista (Default)</option>
-                            <option value="idx-academico">Índice Académico</option>
-                            <option value="idx-tecnico">Índice Técnico</option>
-                            <option value="idx-general">Índice General</option>
-                        </select>
-                    </div>
+                    </label>
+
+
+
                 </div>
+                
             </form>
-        </div>
+        </nav> 
     )
 }
