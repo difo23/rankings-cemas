@@ -52,7 +52,7 @@ export default function SearchBar({ handleUrl }) {
                         />
                     </div>
                     <div className="col-2">
-                        <button className="btn btn-outline-success " type="submit">Buscar</button>
+                        <button className="buscar" type="submit">Buscar</button>
                     </div>
                     <div id="dropdown">
                         <select id="filter">
