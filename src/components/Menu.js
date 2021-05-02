@@ -18,16 +18,5 @@ const Menu = () => {
   );
 };
 
-{/* <div className="container-fluid menu">
-  <div className="row">
-    <header class="col-lg-12">
-      <div class="cemas">
-        <img class="logo" src="./images/logo.png" alt="">
-        <h1 class="title">Ranking Cemas</h1>
-      </div>
-      <button class="log_out">Salir</button>
-    </header>
-  </div>
-</div> */}
 export default Menu;
 
