@@ -56,6 +56,10 @@ export default function SearchBar({ handleUrl }) {
                         />
                     </label>
 
+                    <div class="container-button  col-md-2 col-sm-6">
+                        <button className="buscar" type="submit">Buscar</button>
+                    </div>
+
                     
 
                 </div>
