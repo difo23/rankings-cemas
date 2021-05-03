@@ -1,0 +1,48 @@
+/* ----------------------------- Interfaz de Log In ---------------------------*/
+
+/* Contenedores */
+
+.container_center{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_log_in{
+    background-color: var(--container_bg);
+    padding: 5vh 5vw;
+    border-radius: calc(.5vw + .5vh);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: #0000004f solid 1px;
+    box-shadow: 4px 4px 4px #00000075;
+}
+
+/* Botón para Iniciar Sesión */
+button.log_in{
+    height: 10vh;
+    padding: 0 1vw;
+    display: flex;
+    border-radius: calc(.5vw + .5vh);
+    align-items: center;
+    justify-content: center;
+    background-color: var(--login_bg);
+    border: #0000002a solid 1px;
+    box-shadow: 0 2px 1px #0000005b;
+    color: var(--login_color);
+    font-size: calc(1vw + 2vh);
+}
+
+button.log_in img{
+    width: calc(2vw + 2vh);
+    margin-right: .8vw;
+}
+
+button.log_in:hover{
+    box-shadow: 0 2.5px 1px #00000071;
+}
