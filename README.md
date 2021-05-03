@@ -60,35 +60,6 @@ Nuestra app **RANKING CEMAS** se realiza de una forma fácil, nosotros buscamos 
  
 Esta aplicación web marcara un antes y un después en toda la historia de nuestro centro educativo, porque a través de esta mejorara significativamente la manera en la que los maestros obtienen los diferentes promedios de las calificaciones de los estudiantes; pasando de una hoja de papel común y corriente a una maravillosa aplicación que cumple con sus necesidades solo en su primera versión.
 
-## Scripts
-
-En este proyecto puedes correr los siguientes Scripts:
-
-### `yarn install` o `npm install`
-
-Para instalar los módulos necesarios de Node.
-
-### `yarn start` o ``npm start``
-
-Ejecuta la aplicación en el modo de desarrollo. \
-Abra [http://localhost:3000](http://localhost:3000) para visualizarlo en el navegador.
-
-La página se recargará si realiza modificaciones. \
-También verá cualquier error por la consola.
-
-### `yarn run predeploy` o `npm run predeploy`
-
-Construye la aplicación para producción en la carpeta `build`. \
-Agrupa correctamente React en el modo de producción y optimiza la compilación para obtener el mejor rendimiento.
-
-La compilación se minimiza y los nombres de archivo incluyen los hash. \
-¡Tu aplicación está lista para salir a producción!
-
-Para mas información visita la sección [deployment](https://facebook.github.io/create-react-app/docs/deployment). 
-
-### `yarn run deploy` o `npm run deploy`
-
-Publica la aplicación usando GH Pages.
 
 <!-- 
 ## Firebase
@@ -191,4 +162,36 @@ Los reportes se realizan para documentar todo lo que se hace en las reuniones, l
 * [Reporte #11](https://drive.google.com/file/d/1cIk0cDD92bGeJysgNkDvNh613-_kGJmT/view?usp=sharing)
 * [Reporte #12](https://drive.google.com/file/d/1XP2-jJ3uXJ4yXVPo1zMk18VX8z3JNZjX/view?usp=sharing)
 * [Reporte #13](https://drive.google.com/file/d/1n3GgU4dNoVGn4-PyU7sdHVTAk7Zf0QDR/view?usp=sharing)
+
+
+## Scripts
+
+En este proyecto puedes correr los siguientes Scripts:
+
+### `yarn install` o `npm install`
+
+Para instalar los módulos necesarios de Node.
+
+### `yarn start` o ``npm start``
+
+Ejecuta la aplicación en el modo de desarrollo. \
+Abra [http://localhost:3000](http://localhost:3000) para visualizarlo en el navegador.
+
+La página se recargará si realiza modificaciones. \
+También verá cualquier error por la consola.
+
+### `yarn run predeploy` o `npm run predeploy`
+
+Construye la aplicación para producción en la carpeta `build`. \
+Agrupa correctamente React en el modo de producción y optimiza la compilación para obtener el mejor rendimiento.
+
+La compilación se minimiza y los nombres de archivo incluyen los hash. \
+¡Tu aplicación está lista para salir a producción!
+
+Para mas información visita la sección [deployment](https://facebook.github.io/create-react-app/docs/deployment). 
+
+### `yarn run deploy` o `npm run deploy`
+
+Publica la aplicación usando GH Pages.
+
 
