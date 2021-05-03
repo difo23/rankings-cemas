@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 
-export default function ItemBoletin({ estudiante }) {
-
+const ItemBoletin = ({ estudiante }) => {
     const [active] = useState('')
 
     return (
@@ -30,3 +29,5 @@ export default function ItemBoletin({ estudiante }) {
         </div>
     )
 }
+
+export default ItemBoletin;

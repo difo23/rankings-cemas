@@ -7,7 +7,7 @@ import {
     orderByIdx
 } from "./helpers";
 
-export default function ListaBoletines({ url }) {
+export default  function ListaBoletines({ url }) {
 
     console.log("Lista Boletines URL: ", url);
     //{ data: null, loading: true, error: null }
@@ -42,12 +42,22 @@ export default function ListaBoletines({ url }) {
 
             //obtener idx_general
             const idx_general = getIdxGeneral(idx_academico, idx_tecnico);
+            
+            //obtener curso
+            const curso = estudiante.curso;
+            
+            // obtener periodo
+            const periodo = estudiante.periodo;
 
+            console.log("Print.. Curso, Periodo:" + curso, periodo);
+            
             return {
                 ...estudiante,
                 idx_academico,
                 idx_tecnico,
-                idx_general
+                idx_general,
+                curso,
+                periodo
             }
 
         })
@@ -62,12 +72,15 @@ export default function ListaBoletines({ url }) {
 
     const ranking = algoritmoRanking(data);
 
+    // const curso = '6D', periodo = '2020-2021';
+    // console.log('Muestra ranking:', ranking)
 
     return (
         <div>
+            <h3>Lista de boletines de {ranking[0].curso} {ranking[0].periodo}:</h3>
+            <hr />
             <div className="list-group">
                 {ranking.map(estudiante => <ItemBoletin key={estudiante._id} estudiante={estudiante} />)}
-
             </div>
         </div>
     )
