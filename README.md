@@ -167,7 +167,7 @@ export default function ListaBoletines({ url }) {
 
 Los reportes se realizan para documentar todo lo que se hace en las reuniones, las tareas u otras actividades relacionadas con el proyecto.
 
-# **Estructura de los reportes**
+## **Estructura de los reportes**
 
 * Nombre y numero del reporte.
 * Descripcion del reporte.
@@ -176,7 +176,7 @@ Los reportes se realizan para documentar todo lo que se hace en las reuniones, l
 * Participacion de los estudiantes (Evidencias).
 * Evidencias de todo el proceso del dia. 
 
-# **Links de los reportes**
+## **Links de los reportes**
 
 * [Reporte #1](https://drive.google.com/file/d/1C-6O4Fa5qUB1mIKsrOOOKSGsqaWN7R04/view?usp=sharing)
 * [Reporte #2](https://drive.google.com/file/d/1lxoV097lWk91a0jvbXuhaBoYxHyfdpg0/view?usp=sharing)
