@@ -68,7 +68,7 @@ button.buscar:hover{
     color: var(--btn_search_bg);
 }
 
-/* Ordenar */
+/* Ordenar / Filtro */
 
 select.dropdown{
     padding: .85vw;
