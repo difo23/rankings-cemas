@@ -3,12 +3,12 @@
 input, select{
     width: 65%;
     border-radius: .3vw;
-    border: 1px solid rgb(87, 201, 246);
+    border: 1px solid #57c9f6;
     font-style: italic;
-    background-color: white;
+    background-color: #ffffff;
     font-size: calc(.8vw + .8vh);
-    color: gray;
-    box-shadow: 0 .5px 1px gray ;
+    color: #808080;
+    box-shadow: 0 .5px 1px #808080 ;
 }
 
 input:focus{
@@ -25,7 +25,7 @@ label{
 
 label span{
     font-size: calc(1.1vw + 1.1vh);
-    color: gray;
+    color: #808080;
 }
 
 input.curso, input.periodo{
@@ -33,13 +33,13 @@ input.curso, input.periodo{
 }
 
 input.curso::placeholder, input.periodo::placeholder{
-    color: rgb(179, 177, 177);
+    color: #b3b1b1;
     font-style: italic;
 }
 
 input.curso:focus, input.periodo:focus, select:focus{
-    border-color: black;
-    box-shadow: 2px 2px 2px rgba(172, 170, 170, 0.671);
+    border-color: #000000;
+    box-shadow: 2px 2px 2px #acaaaaab;
 }
 
 /* Boton para buscar */
@@ -53,19 +53,19 @@ div.container-button{
 button.buscar{
     font-weight: 800;
     font-size: calc(1.1vw + 1.1vh);
-    color: white;
-    background-color: rgb(66, 173, 216);
-    border: 1px solid rgb(69, 114, 211);
+    color: #ffffff;
+    background-color: #42add8;
+    border: 1px solid #4572d3;
     border-radius: .5vw;
     padding: .4vw;
     height: 100%;
     width: 88%;
-    box-shadow: 0px -1px 1.5px rgba(0, 0, 0, 0.329) inset;
+    box-shadow: 0px -1px 1.5px #00000054 inset;
 }
 
 button.buscar:hover{
-    background-color: white;
-    color: rgb(53, 150, 189);
+    background-color: #ffffff;
+    color: #3596bd;
 }
 
 /* Ordenar */
