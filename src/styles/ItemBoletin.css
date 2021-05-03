@@ -16,9 +16,6 @@ article:hover{
     transition: 110ms;
 }
 
-article li{
-    font-size: 2vh;
-    list-style: none;
-    text-align: left;
-    transform: translate(-30px, 0px);
+.nombre{
+    font-size: 3vh;
 }
