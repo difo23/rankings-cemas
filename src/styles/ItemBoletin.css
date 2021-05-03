@@ -19,3 +19,8 @@ article:hover{
 .nombre{
     font-size: 3vh;
 }
+
+.numero{
+    float: right;
+    transform: translate(0px, -8px);
+}
