@@ -29,7 +29,7 @@ export default function SearchBar({ handleUrl }) {
 
     return (
         <nav>
-            <form onSubmit={loadRecords}>
+            <form onSubmit={loadRecords} autoComplete="off">
                 <div className="form-row">
 
                     <label class="col-md-3 col-sm-6">
