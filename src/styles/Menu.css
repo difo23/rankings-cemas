@@ -1,0 +1,33 @@
+/* ------------------------- Menu / Header de la App ---------------------------*/
+
+div.menu{
+    background-color: var(--menu_bg);
+    padding: .7vw 4vw;
+    margin-bottom: 2.5vh;
+    box-shadow: 0 -2px 2px #0000003b inset;
+}
+
+div.cemas{
+    display: flex;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img.logo{
+    width: calc(2em + 1vw);
+    margin-right: .7vw;
+}
+
+h1.title{
+    font-weight: 800;
+    color: var(--encabezado_color);
+    font-size: calc(2.5vw + 2.5vh);
+    display: inline-block;
+    margin-bottom: 0;
+    text-shadow: 0px 2px #00000081;
+}

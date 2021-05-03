@@ -1,0 +1,16 @@
+/*------------------- Componente - Boton Log Out ----------------------*/
+
+button.log_out{
+    font-weight: bold;
+    border: none;
+    border-radius: .6vw;
+    padding: .5vw 2vw;
+    background-color: var(--logout_bg);
+    color: var(--logout_color);
+    font-size: calc(1.1vw + 1.1vh);
+    box-shadow: 0px -.3vw #0000005b inset;
+}
+
+button.log_out:hover{
+    box-shadow: 0px -.2vw #0000005b inset;
+}

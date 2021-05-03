@@ -1,6 +1,13 @@
 import React, { useState } from 'react'
 
+<<<<<<< HEAD
 const ItemBoletin = ({ estudiante }) => {
+=======
+export default function ItemBoletin({ estudiante }) {
+
+    const [active] = useState('')
+
+>>>>>>> pre-production
     return (
         <div>
             <li className={`list-group-item list-group-item-action ${active}`}>

@@ -1,0 +1,77 @@
+/*---------------------------------- Barra de Navegación -------------------------------------------*/
+
+input, select{
+    width: 65%;
+    border-radius: .3vw;
+    border: 1px solid var(--input_border);
+    font-style: italic;
+    background-color: #ffffff;
+    font-size: calc(.8vw + .8vh);
+    color: #808080;
+    box-shadow: 0 .5px 1px #808080 ;
+}
+
+input:focus{
+    outline: none;
+}
+
+/* Inputs Curso y Periodo */
+label{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 1.5vw;
+}
+
+label span{
+    font-size: calc(1.1vw + 1.1vh);
+    color: var(--label_color);
+}
+
+input.curso, input.periodo{
+    padding: .7vw;
+}
+
+input.curso::placeholder, input.periodo::placeholder{
+    color: var(--placeholder);
+    font-style: italic;
+}
+
+input.curso:focus, input.periodo:focus, select:focus{
+    border-color: #000000;
+    box-shadow: 2px 2px 2px #acaaaaab;
+}
+
+/* Boton para buscar */
+
+div.container-button{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+button.buscar{
+    font-weight: 800;
+    font-size: calc(1.1vw + 1.1vh);
+    color: var(--btn_search_color);
+    background-color: var(--btn_search_bg);
+    border: 1px solid var(--btn_search_border);
+    border-radius: .5vw;
+    padding: .4vw;
+    height: 100%;
+    width: 88%;
+    box-shadow: 0px -1px 1.5px #00000054 inset;
+}
+
+button.buscar:hover{
+    background-color: var(--btn_search_color);
+    color: var(--btn_search_bg);
+}
+
+/* Ordenar / Filtro */
+
+select.dropdown{
+    padding: .85vw;
+    width: 65%;
+    cursor: pointer;
+}
