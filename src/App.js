@@ -33,23 +33,20 @@ function App() {
           <>
             <Menu />
       <div className="container" id="ranking">
-        <div className="row mt-4">
-          <div className="col">
-            <SearchBar handleUrl={handleUrl} />
-          </div>
-        </div>
+        <SearchBar handleUrl={handleUrl} />
 
-        <div className="row mt-4">
-          <div className="col mt-4 ml-5 mr-5 mb-5">
-            <h3>Lista de boletines:</h3>
-            <hr />
-            {state && <ListaBoletines url={state} />}
-          </div>
-        </div>
+        <h3>Lista de boletines:</h3>
+        
+        <hr />
+
+        {state && <ListaBoletines url={state} />}
       </div>
           </>
         ): (
-          <ButtonSingIn onClick={signInWithGoogle} > Sign in with Google</ButtonSingIn>
+          <ButtonSingIn onClick={signInWithGoogle}> 
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/768px-Google_%22G%22_Logo.svg.png" alt=""></img>
+            Sign in with Google
+          </ButtonSingIn>
         )}
       </div>
   );

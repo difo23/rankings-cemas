@@ -5,12 +5,12 @@ button.log_out{
     border: none;
     border-radius: .6vw;
     padding: .5vw 2vw;
-    background-color: white;
-    color: rgb(53, 150, 189);
+    background-color: var(--logout_bg);
+    color: var(--logout_color);
     font-size: calc(1.1vw + 1.1vh);
-    box-shadow: 0vw -.25vw rgba(0, 0, 0, 0.349) inset;
+    box-shadow: 0px -.3vw #0000005b inset;
 }
 
 button.log_out:hover{
-    box-shadow: 0px -.3vw rgba(0, 0, 0, 0.335) inset;
+    box-shadow: 0px -.2vw #0000005b inset;
 }
