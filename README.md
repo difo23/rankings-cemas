@@ -47,11 +47,12 @@ Nuestra app **RANKING CEMAS** se realiza de una forma fácil, nosotros buscamos 
 * Menos duración al sacar el una calificación o un promedio.
 * Acto para todos los centros educativos.
 * Solos los del centro podrán tomar información de la app.
-* Bien elaborado.
+* Interfaz con colores agradables.
+
 
 ## Desventajas
 
- * La app puede ser hackeada para tomar información.
+* La app puede ser hackeada para tomar información.
 * El sistema puede caerse después de un tiempo.
 
  ## Beneficios
