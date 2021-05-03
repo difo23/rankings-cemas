@@ -8,9 +8,9 @@ button.log_out{
     background-color: #ffffff;
     color: #3596bd;
     font-size: calc(1.1vw + 1.1vh);
-    box-shadow: 0px -.2vw 1px #00000055 inset;
+    box-shadow: 0px -.3vw #0000005b inset;
 }
 
 button.log_out:hover{
-    box-shadow: 0px -.3vw #0000005b inset;
+    box-shadow: 0px -.2vw #0000005b inset;
 }
