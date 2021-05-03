@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 
 const ItemBoletin = ({ estudiante }) => {
+    const [active] = useState('')
+
     return (
         <div>
             <li className={`list-group-item list-group-item-action ${active}`}>
