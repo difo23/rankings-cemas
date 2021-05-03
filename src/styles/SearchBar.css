@@ -3,7 +3,7 @@
 input, select{
     width: 65%;
     border-radius: .3vw;
-    border: 1px solid #57c9f6;
+    border: 1px solid var(--input_border);
     font-style: italic;
     background-color: #ffffff;
     font-size: calc(.8vw + .8vh);
@@ -25,7 +25,7 @@ label{
 
 label span{
     font-size: calc(1.1vw + 1.1vh);
-    color: #808080;
+    color: var(--label_color);
 }
 
 input.curso, input.periodo{
@@ -33,7 +33,7 @@ input.curso, input.periodo{
 }
 
 input.curso::placeholder, input.periodo::placeholder{
-    color: #b3b1b1;
+    color: var(--placeholder);
     font-style: italic;
 }
 
@@ -53,9 +53,9 @@ div.container-button{
 button.buscar{
     font-weight: 800;
     font-size: calc(1.1vw + 1.1vh);
-    color: #ffffff;
-    background-color: #42add8;
-    border: 1px solid #4572d3;
+    color: var(--btn_search_color);
+    background-color: var(--btn_search_bg);
+    border: 1px solid var(--btn_search_border);
     border-radius: .5vw;
     padding: .4vw;
     height: 100%;
@@ -64,8 +64,8 @@ button.buscar{
 }
 
 button.buscar:hover{
-    background-color: #ffffff;
-    color: #3596bd;
+    background-color: var(--btn_search_color);
+    color: var(--btn_search_bg);
 }
 
 /* Ordenar */
