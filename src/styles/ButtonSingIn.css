@@ -1,14 +1,14 @@
 .container_center{
     width: 100vw;
     height: 100vh;
-    background-color: #e3f8ff;
+    background-color: var(--background);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .container_log_in{
-    background-color: #4aa5c8;
+    background-color: var(--container_bg);
     padding: 5vh 5vw;
     border-radius: calc(.5vw + .5vh);
     display: flex;
@@ -26,10 +26,10 @@ button.log_in{
     border-radius: calc(.5vw + .5vh);
     align-items: center;
     justify-content: center;
-    background-color: #ffffff;
+    background-color: var(--login_bg);
     border: #0000002a solid 1px;
     box-shadow: 0 2px 1px #0000005b;
-    color: #757575;
+    color: var(--login_color);
     font-size: calc(1vw + 2vh);
 }
 

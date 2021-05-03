@@ -8,6 +8,12 @@
 
 :root{
 
+/* Log In */
+    --background: #e3f8ff;
+    --container_bg: #4aa5c8;
+    --login_bg: #ffffff;
+    --login_color: #757575;
+
 /* Menu: */
     --menu_bg: #48b8e4;
     --encabezado_color: #ffffff;
@@ -31,6 +37,10 @@
 
 *{
     font-family: "Open Sans", sans-serif;
+}
+
+body{
+    background-color: white;
 }
 
 
