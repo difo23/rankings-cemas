@@ -14,11 +14,16 @@ const ItemBoletin = ({ estudiante }) => {
 
                 <p className="mb-1"> Modulos: {estudiante.modulos.map(modulo => <small>{modulo.codigo_asignatura} </small>)}</p>
 
-
-
-                <p className="mb-1"> {`Promedio Academico : ${estudiante.idx_academico}`} </p>
-                <p className="mb-1"> {`Promedio Tecnico : ${estudiante.idx_tecnico}`} </p>
-                <p className="mb-1"> {`Promedio General : ${estudiante.idx_general}`} </p>
+                <article>
+                <b className="nombre">NOMBRE COMPLETO DEL ESTUDIANTE <b className="numero">01</b></b>
+                <ul><b>
+                    <li>Asignaturas: INTE006 EDFI006 EDAR006 MATE006 CSOC006 CNAT006 FIHR006 LENG006</li>
+                    <li>Modulos: MF0603_DISWM MF0553_IMASI MF0000_FCT MF0043_EMPR</li>
+                    <li>{`Promedio Academico : ${estudiante.idx_academico}`}</li>
+                    <li>{`Promedio Tecnico : ${estudiante.idx_tecnico}`}</li>
+                    <li>{`Promedio General : ${estudiante.idx_general}`}</li>
+                </b></ul>    
+            </article>
 
                 {/* <small>Titular: {estudiante.nombre_titular}</small> */}
                 {/* <div className="mt-3">
