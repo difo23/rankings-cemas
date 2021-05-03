@@ -1,14 +1,63 @@
 # Introducción
 
-Este es un proyecto escolar grupal, que consiste en crear una App con React, Bootstrap y Firebase. Se requiere ordenar el listado de estudiantes según su calificación promedio. Todos estos datos son obtenidos desde un JSON con un reporte de los restudiantes del centro.
+Este es un proyecto escolar grupal, que consiste en crear una App con React, Bootstrap y Firebase. Se requiere ordenar el listado de estudiantes según su calificación promedio. Todos estos datos son obtenidos desde un JSON con un reporte de los estudiantes del centro.
 
 Este proyecto esta hecho con [Create React App](https://github.com/facebook/create-react-app).
+
+
+Link de los reportes del proyecto [Reportes](https://drive.google.com/drive/folders/1sJdno7Qg00N_rRsHNCbQpDaTjWBCEIAA).
 
 
 ## Capturas de pantalla
 
 ![](./assets/img/main-section.png)
 
+# De que trata esta aplicación:
+
+Esta app se trata o se basa en poder sacar **promedio a las calificaciones**, esta calcula los **índices académico ,**también las calificaciones generales** y las técnicas**  de cada uno los estudiantes del centro y contara demostrar la lista de los estudiantes por el Bom ordenado según las calificación con un estilo simple. 
+
+# Como lo hacemos :
+
+Nuestra app **RANKING CEMAS** se realiza de una forma fácil, nosotros buscamos la forma de programar cada cosa y buscar los códigos y programas necesarios para que nos pudiera ir funcionando.
+
+
+ # Esta hace lo siguiente:
+  
+*ordenar el listado de estudiantes según su numero de listado.*
+*ordenar el listado de estudiantes según su índice académico.*
+
+## Que contiene la app:
+
+* Lista de estudiante.
+* Tiene una barra de búsqueda para filtrar los estudiantes por curso.
+* Tiene una barra de búsqueda para filtrar los estudiantes por periodo.
+* Tiene una barra de búsqueda para filtrar los estudiantes por índice.
+* Muestra el listado de estudiantes con su índice académico.
+* Muestra el listado de estudiantes con su índice técnico.
+* Muestra el listado de estudiantes con su índice general. 
+* Ordena el listado de estudiantes según su índice general.
+* Obtiene la información desde base de datos del centro educativo. 
+* Cuenta con un sistema de inicio de sesión.
+* Evitar que personas externas al centro accedan a la información.
+
+## Ventajas:
+
+* Mas facibilidad a los maestros.
+* Las calificaciones salen correctamente.
+* Menos duración al sacar el una calificación o un promedio.
+* Acto para todos los centros educativos.
+* Solos los del centro podrán tomar información de la app.
+* Bien elaborado.
+
+## Desventajas
+
+ * La app puede ser hackeada para tomar información.
+* El sistema puede caerse después de un tiempo.
+
+ ## Beneficios
+ 
+ Esta es una app que todos los estudiantes y maestros podremos utilizar con la fasibilidad de poder adquirir y poner las calificaciones, con esta app no tendremos que ver en una hoja que calificación tenemos solo entrar a la pagina y ver cual es tu calificación, se le ara mas fácil a los maestro porque solo tendrán que poner los numero y directamente le mandara la calificación y promedio.
+ 
 ## Scripts
 
 En este proyecto puedes correr los siguientes Scripts:

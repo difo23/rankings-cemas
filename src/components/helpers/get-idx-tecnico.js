@@ -19,7 +19,7 @@ const getIdxTecnico = (modulos, curso) => {
     case "6":
       // Recorrer los modulos
       modulos.forEach((asignatura, index) => {
-        if (asignatura.codigo_asignatura == "MF0000_FCT") {
+        if (asignatura.codigo_asignatura === "MF0000_FCT") {
           let fct_transformado = (parseFloat(asignatura.acumulado) * 100) / asignatura.total;
           let fct_acumulado = fct_transformado;
           sum_acumulado_modulos += fct_acumulado;

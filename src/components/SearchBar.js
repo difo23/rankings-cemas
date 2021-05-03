@@ -28,34 +28,49 @@ export default function SearchBar({ handleUrl }) {
     }
 
     return (
-        <div>
-            <form onSubmit={loadRecords}>
-                <div className="form-row ml-5">
-                    <div className="col-5">
+        <nav>
+            <form onSubmit={loadRecords} autoComplete="off">
+                <div className="form-row">
+
+                    <label class="col-md-3 col-sm-6">
+                        <span>Curso</span>
                         <input
                             type="text"
-                            className="form-control"
-                            placeholder="Curso"
+                            className="curso"
+                            placeholder="6D"
                             name="curso"
                             value={curso}
                             onChange={handleInputChange}
                         />
-                    </div>
-                    <div className="col-5">
+                    </label>
+
+                    <label class="col-md-3 col-sm-6">
+                        <span>Periodo</span>
                         <input
                             type="text"
-                            className="form-control"
-                            placeholder="Periodo"
+                            className="periodo"
+                            placeholder="2020-2021"
                             name="periodo"
                             value={periodo}
                             onChange={handleInputChange}
                         />
-                    </div>
-                    <div className="col-2">
-                        <button className="btn btn-outline-success " type="submit">Buscar</button>
+                    </label>
+
+                    <label class="col-md-4 col-sm-6">
+                        <span>Ordenar</span>
+                        <select id="filter" className="dropdown">
+                            <option value="num-lista">Número (Defecto)</option>
+                            <option value="idx-academico">Indice Académico</option>
+                            <option value="idx-tecnico">Indice Técnico</option>
+                            <option value="idx-general">Indice General</option>
+                        </select>
+                    </label>
+
+                    <div class="container-button col-md-2 col-sm-6">
+                        <button className="buscar" type="submit">Buscar</button>
                     </div>
                 </div>
             </form>
-        </div>
+        </nav>
     )
 }

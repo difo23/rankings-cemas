@@ -1,0 +1,48 @@
+/*------------------------------ Importaciones ---------------------------------*/
+@import "ButtonSingIn";
+@import "Menu.css";
+@import "ButtonSignOut.css";
+@import "SearchBar.css";
+
+/*------------------------------ Variables de Colores ----------------------------*/
+
+:root{
+
+/* Log In */
+    --background: #e3f8ff;
+    --container_bg: #4aa5c8;
+    --login_bg: #ffffff;
+    --login_color: #757575;
+
+/* Menu: */
+    --menu_bg: #48b8e4;
+    --encabezado_color: #ffffff;
+
+/* Botón Log Out */    
+    --logout_bg: #ffffff;
+    --logout_color: #3596bd;
+
+/* SearchBar */
+    --input_border: #57c9f6;
+    --label_color: #808080;
+    --placeholder: #b3b1b1;
+
+/* Botón Search */
+    --btn_search_bg: #42add8;   
+    --btn_search_color: #ffffff;
+    --btn_search_border: #4572d3;
+}
+
+/*------------------------ Estilos Generales ------------------------*/
+
+*{
+    font-family: "Open Sans", sans-serif;
+}
+
+body{
+    background-color: white;
+}
+
+
+
+

@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 export default function ItemBoletin({ estudiante }) {
 
-    const [active, setactive] = useState('')
+    const [active] = useState('')
 
     return (
         <div>
