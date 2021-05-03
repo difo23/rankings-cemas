@@ -23,7 +23,7 @@ img.logo{
 
 h1.title{
     font-weight: 800;
-    color: var(--encabezado_bg);
+    color: var(--encabezado_color);
     font-size: calc(2.5vw + 2.5vh);
     display: inline-block;
     margin-bottom: 0;

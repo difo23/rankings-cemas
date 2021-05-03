@@ -4,13 +4,17 @@
 @import "ButtonSignOut.css";
 @import "SearchBar.css";
 
-/*------------------------------ Variables ----------------------------*/
+/*------------------------------ Variables de Colores ----------------------------*/
 
 :root{
 
 /* Menu: */
     --menu_bg: #48b8e4;
-    --encabezado_bg: #ffffff;
+    --encabezado_color: #ffffff;
+
+/* Botón Log Out */    
+    --logout_bg: #ffffff;
+    --logout_color: #3596bd;
 }
 
 /*------------------------ Estilos Generales ------------------------*/
