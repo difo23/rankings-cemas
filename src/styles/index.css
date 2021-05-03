@@ -1,12 +1,15 @@
 /*------------------------------ Importaciones ---------------------------------*/
+@import "ButtonSingIn";
 @import "Menu.css";
 @import "ButtonSignOut.css";
 @import "SearchBar.css";
 
+/*------------------------------ Variables ----------------------------*/
+
 
 /*------------------------ Estilos Generales ------------------------*/
 
-body {
+*{
     font-family: "Open Sans", sans-serif;
 }
 
