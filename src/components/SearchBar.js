@@ -30,7 +30,7 @@ export default function SearchBar({ handleUrl }) {
     return (
         <nav>
             <form onSubmit={loadRecords}>
-                <div className="form-row ml-5">
+                <div className="form-row">
 
                     <label class="col-md-3 col-sm-6">
                         <span>Curso</span>
@@ -66,9 +66,8 @@ export default function SearchBar({ handleUrl }) {
                         </select>
                     </label>
 
-                    <div class="container-button  col-md-2 col-sm-6">
+                    <div class="container-button col-md-2 col-sm-6">
                         <button className="buscar" type="submit">Buscar</button>
-
                     </div>
                 </div>
             </form>
