@@ -1,0 +1,24 @@
+article{
+    border: solid 5px rgba(0, 0, 0, 0.164);
+    padding: 10px;
+    z-index: 3;
+    background:  rgb(249, 249, 249);
+    transform: translate(0vw, -0.9vw);
+    margin-bottom: 2vh;
+    color: rgb(77, 77, 77);
+    transition: 110ms;
+}
+
+article:hover{
+    background-color: rgb(241, 241, 241);
+    cursor: pointer;
+    border: solid 5px rgba(61, 61, 61, 0.527);
+    transition: 110ms;
+}
+
+article li{
+    font-size: 2vh;
+    list-style: none;
+    text-align: left;
+    transform: translate(-30px, 0px);
+}
