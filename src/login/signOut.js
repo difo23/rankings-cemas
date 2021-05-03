@@ -1,5 +1,5 @@
-
-import { firebase } from "../config/firebase";
+// Import firebaseConfig
+import { firebase } from "../config/firebase.pub";
 
 const signOut = async () => {
   try {

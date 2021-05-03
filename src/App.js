@@ -1,13 +1,18 @@
-import { firebase } from "./config/firebase";
-import  ButtonSingIn  from "./components/ButtonSingIn";
 import { useState } from 'react';
 import { useAuthState } from './hooks';
+
+// Import firebaseConfig
+import { firebase } from "./config/firebase.pub";
+import './config/firebase.pub';
+
+// Import Sign In With Google
+import { signInWithGoogle } from "./login";
+
+// Import Components
+import  ButtonSingIn  from "./components/ButtonSingIn";
 import ListaBoletines from './components/ListaBoletines';
 import SearchBar from './components/SearchBar';
 import Menu from "./components/Menu";
-import { signInWithGoogle } from "./login";
-import './config/firebase';
-
 
 function App() {
   const [state, setState] = useState(null);
