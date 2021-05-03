@@ -30,9 +30,6 @@ function App() {
         </div>
       );
   }; 
-
-  const {curso, periodo} = cursoPeriodo;
-
   return (
     <div>
          {renderLoading()}
@@ -41,11 +38,8 @@ function App() {
             <Menu />
       <div className="container" id="ranking">
         <SearchBar handleUrl={handleUrl} />
-
-        <h3>Lista de boletines de {curso} {periodo}:</h3>
-        
-        <hr />
-
+        {/* <h3>Lista de boletines de {curso} {periodo}:</h3> */}
+        {/* <hr /> */}
         {state && <ListaBoletines url={state} />}
       </div>
           </>
