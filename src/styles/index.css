@@ -70,5 +70,11 @@ body::-webkit-scrollbar-thumb:hover{
     background: #265b70;
 }
 
+/* Mensaje de Loading */
+.load{
+    color: #265b70;
+    font-style: italic;
+}
+
 
 

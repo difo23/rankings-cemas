@@ -16,7 +16,7 @@ export default  function ListaBoletines({ url }) {
 
     if (loading && url) {
 
-        return <h1>Loading</h1>
+        return <h1 className="load">Loading..</h1>
     } else if (error) {
         console.log(error);
         return <h3>{error}</h3>
