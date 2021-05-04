@@ -53,21 +53,21 @@
 }
 
 body{
-    background-color: white;
+    background-color: #ffffff;
 }
 
 /* Barra de Desplazamiento: */
 body::-webkit-scrollbar{
-    background: rgb(228, 228, 228);
+    background: #e4e4e4;
     width: 1.1vw;
 }
   
 body::-webkit-scrollbar-thumb{
-    background: rgb(146, 146, 146);
+    background: #222020;
 }
 
 body::-webkit-scrollbar-thumb:hover{
-    background: rgb(54, 130, 160);
+    background: #265b70;
 }
 
 
