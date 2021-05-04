@@ -76,4 +76,11 @@ select.dropdown{
     padding: .85vw;
     width: 65%;
     cursor: pointer;
+    color:black;
+    font-style: normal;
+}
+
+option{
+    color: #808080;
+    font-style: italic;
 }
