@@ -56,6 +56,19 @@ body{
     background-color: white;
 }
 
+/* Barra de Desplazamiento: */
+body::-webkit-scrollbar{
+    background: rgb(228, 228, 228);
+    width: 1.1vw;
+}
+  
+body::-webkit-scrollbar-thumb{
+    background: rgb(146, 146, 146);
+}
+
+body::-webkit-scrollbar-thumb:hover{
+    background: rgb(54, 130, 160);
+}
 
 
 
