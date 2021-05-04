@@ -31,21 +31,18 @@ Obtener el promedio a las calificaciones, calcula los índices académicos, la
 
 Nuestra app RANKING CEMAS esta realizada de una manera fácil, buscamos la forma de programar cada cosa, los códigos y programas necesarios para hacerla funcionar de forma eficiente y manejarnos de forma eficaz al trabajar en equipo.
 
+## Contiene:
 
-
-## Que contiene la app:
-
-* Lista de estudiante.
-* Tiene una barra de búsqueda para filtrar los estudiantes por curso.
-* Tiene una barra de búsqueda para filtrar los estudiantes por periodo.
-* Tiene una barra de búsqueda para filtrar los estudiantes por índice.
-* Muestra el listado de estudiantes con su índice académico.
-* Muestra el listado de estudiantes con su índice técnico.
-* Muestra el listado de estudiantes con su índice general. 
-* Ordena el listado de estudiantes según su índice general.
-* Obtiene la información desde base de datos del centro educativo. 
-* Cuenta con un sistema de inicio de sesión.
-* Evitar que personas externas al centro accedan a la información.
+- Inicio de sesión.
+- Lista de estudiantes.
+- Listado de estudiantes con su índice académico.
+- Listado de estudiantes con su índice técnico.
+- Barra de búsqueda para filtrar los estudiantes por curso.
+- Barra de búsqueda para filtrar los estudiantes por periodo.
+- Barra de búsqueda para filtrar los estudiantes por índice.
+- Indice general.
+- Información desde base de datos del centro educativo.
+- Evita que personas externas al centro accedan a la información.
 
 ## Ventajas:
 
