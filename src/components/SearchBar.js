@@ -38,6 +38,7 @@ export default function SearchBar({ handleUrl }) {
                             type="text"
                             className="curso"
                             placeholder="6D"
+                            required
                             name="curso"
                             value={curso}
                             onChange={handleInputChange}
