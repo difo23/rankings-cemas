@@ -1,83 +1,82 @@
-# Introducción
+# **Ranking Cemas**
 
-Este es un proyecto escolar grupal, que consiste en crear una App con React, Bootstrap y Firebase. Se requiere ordenar el listado de estudiantes según su calificación promedio. Todos estos datos son obtenidos desde un JSON con un reporte de los estudiantes del centro.
+## Introducción.
 
-Este proyecto esta hecho con [Create React App](https://github.com/facebook/create-react-app).
+Este es un proyecto escolar, consiste en crear una App con React, Bootstrap y Firebase. Se requiere ordenar el listado de estudiantes según su calificación  y promedio. Estos datos son obtenidos de un JSON desde un reporte de los estudiantes del centro.
+
+**Link de los Reportes del proyecto:** (https://drive.google.com/drive/folders/1sJdno7Qg00N_rRsHNCbQpDaTjWBCEIAA).
 
 
-Link de los reportes del proyecto [Reportes](https://drive.google.com/drive/folders/1sJdno7Qg00N_rRsHNCbQpDaTjWBCEIAA).
+## Función.
+
+Obtener el promedio a las calificaciones, calcula los índices académicos, las calificaciones generales y las técnicas de los estudiantes del centro, mostrara una lista de los estudiantes por el Bom ordenado según las calificaciónes con un estilo simple. Busca obtener el  **promedio de las calificaciones**, esta calcula los **índices académicos** , **también las calificaciones generales** y **las técnicas** ordenadas según las calificación con un estilo simple.
+
+## Objetivos:
+  
+- Ordena en un listado a los estudiantes según su número.
+- ordena en un listado a los estudiantes según su índice académico.
+- Ordena en un listado a los estudiantes según su índice técnico.
+- Ordena en un listado a los estudiantes según su índice general.
 
 
-## Capturas de pantalla
+
+
+## Capturas de pantalla.
 
 ![cpt](./assets/img/main-section.png)
 
+ 
 
+## Lo hacemos.
 
-## De que trata esta aplicación:
+Nuestra app RANKING CEMAS esta realizada de una manera fácil, buscamos la forma de programar cada cosa, los códigos y programas necesarios para hacerla funcionar de forma eficiente y manejarnos de forma eficaz al trabajar en equipo.
 
-Esta app se trata o se basa en poder sacar **promedio a las calificaciones**, esta calcula los **índices académico ,**también las calificaciones generales** y las técnicas**  de cada uno los estudiantes del centro y contara demostrar la lista de los estudiantes por el Bom ordenado según las calificación con un estilo simple. 
+## Contiene:
 
-## Como lo hacemos :
-
-Nuestra app **RANKING CEMAS** se realiza de una forma fácil, nosotros buscamos la forma de programar cada cosa y buscar los códigos y programas necesarios para que nos pudiera ir funcionando.
-
-
-## Esta hace lo siguiente:
-  
-*ordenar el listado de estudiantes según su numero de listado.*
-*ordenar el listado de estudiantes según su índice académico.*
-
-## Que contiene la app:
-
-* Lista de estudiante.
-* Tiene una barra de búsqueda para filtrar los estudiantes por curso.
-* Tiene una barra de búsqueda para filtrar los estudiantes por periodo.
-* Tiene una barra de búsqueda para filtrar los estudiantes por índice.
-* Muestra el listado de estudiantes con su índice académico.
-* Muestra el listado de estudiantes con su índice técnico.
-* Muestra el listado de estudiantes con su índice general. 
-* Ordena el listado de estudiantes según su índice general.
-* Obtiene la información desde base de datos del centro educativo. 
-* Cuenta con un sistema de inicio de sesión.
-* Evitar que personas externas al centro accedan a la información.
+- Inicio de sesión.
+- Lista de estudiantes.
+- Listado de estudiantes con su índice académico.
+- Listado de estudiantes con su índice técnico.
+- Barra de búsqueda para filtrar los estudiantes por curso.
+- Barra de búsqueda para filtrar los estudiantes por periodo.
+- Barra de búsqueda para filtrar los estudiantes por índice.
+- Indice general.
+- Información desde base de datos del centro educativo.
+- Evita que personas externas al centro accedan a la información.
 
 ## Ventajas:
 
-* Mas facibilidad a los maestros.
-* Las calificaciones salen correctamente.
-* Menos duración al sacar el una calificación o un promedio.
-* Acto para todos los centros educativos.
-* Solos los del centro podrán tomar información de la app.
-* Interfaz con colores agradables.
+- Facilidad a los maestros.
+- Buenos resultados.
+- Rapidez al obtener una calificación o un promedio.
+- Acto para todos los centros educativos.
+- Solo los del centro podrán tomar información de la app.
+- Buena elaboración.
 
 
-## Desventajas
+## Desventajas:
 
-* La app puede ser hackeada para tomar información.
-* El sistema puede caerse después de un tiempo.
+- Existe la posibilidad de que algún usuario no autorizado acceda a la información que ofrece.
+- El sistema puede llegar a sufrir cambios y desarrollar defectos con el paso del tiempo.
 
- ## Beneficios
+ ## Beneficios.
  
- 
-Esta aplicación web marcara un antes y un después en toda la historia de nuestro centro educativo, porque a través de esta mejorara significativamente la manera en la que los maestros obtienen los diferentes promedios de las calificaciones de los estudiantes; pasando de una hoja de papel común y corriente a una maravillosa aplicación que cumple con sus necesidades solo en su primera versión.
+ Esta es una app que todos los estudiantes y maestros podrán utilizar con el beneficio de adquirir las calificaciones de forma mas sencilla, con esta no habrá que realizar todo el complicado proceso manual que se estuvo haciendo a día de hoy, si no mas bien solo acceder a la app y ver cual es tu calificación, es una forma de simplificar las formas manuales de hacer las cosas. 
 
+## Informaciones de los reportes y las metodologias utilizadas.
 
+Se realizan para documentar todo lo que se realizado en las reuniones, las tareas u otras actividades relacionadas con el proyecto.
 
-## Informaciones de los reportes y las metodologias utilizadas
+## Estructura de los reportes:
 
-Los reportes se realizan para documentar todo lo que se hace en las reuniones, las tareas u otras actividades relacionadas con el proyecto.
+- Nombre y número del reporte.
+- Descripción del reporte.
+- Detalles de la reunión.
+- Logros y observaciones.
+- Participación de los estudiantes (Evidencias).
+- Evidencias de todo el proceso del dia. 
 
-## **Estructura de los reportes**
-
-* Nombre y numero del reporte.
-* Descripcion del reporte.
-* Detalles de la reunion.
-* Logros y observaciones.
-* Participacion de los estudiantes (Evidencias).
-* Evidencias de todo el proceso del dia. 
-
-## **Links de los reportes**
+## Links de los reportes:
 
 * [Reporte #1](https://drive.google.com/file/d/1C-6O4Fa5qUB1mIKsrOOOKSGsqaWN7R04/view?usp=sharing)
 * [Reporte #2](https://drive.google.com/file/d/1lxoV097lWk91a0jvbXuhaBoYxHyfdpg0/view?usp=sharing)
@@ -95,7 +94,7 @@ Los reportes se realizan para documentar todo lo que se hace en las reuniones, l
 * [Reporte #14](https://drive.google.com/file/d/1Ow0a1tN_h6Yp6iJOjH8ooYDy7vPcEAQ7/view?usp=sharing)
 
 
-## Scripts
+## Scripts.
 
 En este proyecto puedes correr los siguientes Scripts:
 
@@ -131,7 +130,7 @@ Publica la aplicación usando GH Pages.
 Aquí va la explicación de como conectar la DB. 
 -->
 
-## Contribución
+## Contribución:
 
 1. Crea un Fork del repositorio.
 2. Clonar en tu maquina mediante `git clone url_del_repositorio_fork`.
@@ -139,7 +138,7 @@ Aquí va la explicación de como conectar la DB.
 4. Realiza tus cambios.
 5. Manda tu pull request a la rama `pre-production`.
 
-## Mantener actualizado tu Fork
+## Mantener actualizado tu Fork.
 
 Una vez tenga clonado el repositorio Fork en tu PC, lo primero que tienes que hacer es crear un remoto al repositorio principal usando: `git remote add upstream https://github.com/adonyssantos/rankings-cemas.git`. **(Esto solo lo tienes que hacer una vez).**
 
@@ -159,6 +158,7 @@ Aquí unos enlaces con información que podria serte util:
  
  ### Para llevar acabo la peticion de los reportes debemos usar: 
  #### La funcion para crear la URL que solicita los reportes al API: 
+
  La siguiente funcion nos sirve para formar la URL para el pedido de reportes: 
  ```js
  const getReportsURL = (curso, periodo) => {
@@ -173,10 +173,9 @@ Aquí unos enlaces con información que podria serte util:
 ...
 };
  ```
- 
-#### El hook para gestionar los fecth al API:
+ El hook para gestionar los fecth al API es:
 
-El hook que creamos es `useFetch`
+`useFetch`
 ```js
 import { useState, useEffect, useRef } from 'react';
 
@@ -186,7 +185,7 @@ export const useFetch = (url) => {
 }
 ```
 
-#### El componente que hace la peticion y usa el useFetch:
+ El componente que hace la peticion y usa el useFetch:
 
 ```js
 import { useFetch } from "../hooks/useFetch";
