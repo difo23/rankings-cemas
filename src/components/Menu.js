@@ -6,7 +6,7 @@ const Menu = () => {
   <div className="menu container-fluid">
     <div className="row">
       <header className="col-lg-12">
-        <div class="cemas">
+        <div className="cemas">
           <img className="logo" src="https://i.imgur.com/KT8UtmZ.png" alt=""/>
           <h1 className="title">Ranking Cemas</h1>
         </div>
