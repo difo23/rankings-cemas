@@ -1,13 +1,13 @@
 /* ------------------------ Título del Boletín --------------------------- */
 
 main h2{
-    color: #4d4d4d;
+    color: var(--titulo_boletines);
     font-family:  'Trebuchet MS', sans-serif;
     margin-top: 3vh;
 }
 
 hr{
-    color: #424242;
+    color: var(--linea_separacion);
     border: solid 0.002vw;
     transform: translate(0vw, -0.9vw);
 }

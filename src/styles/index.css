@@ -33,7 +33,13 @@
     --btn_search_bg: #42add8;   
     --btn_search_color: #ffffff;
     --btn_search_border: #4572d3;
+
+/* Encabezado de la Lista de Boletines */
+    --titulo_boletines: #4d4d4d;
+    --linea_separacion: #424242;
+
 }
+
 
 /*------------------------ Estilos Generales ------------------------*/
 
