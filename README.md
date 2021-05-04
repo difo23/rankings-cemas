@@ -10,7 +10,9 @@ Link de los reportes del proyecto [Reportes](https://drive.google.com/drive/fold
 
 ## Capturas de pantalla
 
-![](./assets/img/main-section.png)
+![cpt](./assets/img/main-section.png)
+
+
 
 ## De que trata esta aplicación:
 
@@ -21,7 +23,7 @@ Esta app se trata o se basa en poder sacar **promedio a las calificaciones**, es
 Nuestra app **RANKING CEMAS** se realiza de una forma fácil, nosotros buscamos la forma de programar cada cosa y buscar los códigos y programas necesarios para que nos pudiera ir funcionando.
 
 
- ## Esta hace lo siguiente:
+## Esta hace lo siguiente:
   
 *ordenar el listado de estudiantes según su numero de listado.*
 *ordenar el listado de estudiantes según su índice académico.*
@@ -90,6 +92,7 @@ Los reportes se realizan para documentar todo lo que se hace en las reuniones, l
 * [Reporte #11](https://drive.google.com/file/d/1cIk0cDD92bGeJysgNkDvNh613-_kGJmT/view?usp=sharing)
 * [Reporte #12](https://drive.google.com/file/d/1XP2-jJ3uXJ4yXVPo1zMk18VX8z3JNZjX/view?usp=sharing)
 * [Reporte #13](https://drive.google.com/file/d/1n3GgU4dNoVGn4-PyU7sdHVTAk7Zf0QDR/view?usp=sharing)
+* [Reporte #14](https://drive.google.com/file/d/1Ow0a1tN_h6Yp6iJOjH8ooYDy7vPcEAQ7/view?usp=sharing)
 
 
 ## Scripts
