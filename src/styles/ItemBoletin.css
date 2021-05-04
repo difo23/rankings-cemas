@@ -4,18 +4,18 @@ article{
     border: solid 5px #0000002a;
     padding: 10px;
     z-index: 3;
-    background:  #f9f9f9;
+    background:  var(--boletin_bg);
     transform: translate(0vw, -0.9vw);
     margin-bottom: 2vh;
-    color: #4d4d4d;
+    color: var(--boletin_color);
     transition: 110ms;
 }
 
 article:hover{
-    background-color: #f1f1f1;
-    cursor: pointer;
+    background-color: var(--boletin_hover_bg);
     border: solid 5px #3d3d3d86;
     transition: 110ms;
+    color: var(--boletin_hover_color);
 }
 
 /* Nombre del estudiante: */

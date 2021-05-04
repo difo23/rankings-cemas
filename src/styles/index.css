@@ -38,8 +38,13 @@
     --titulo_boletines: #4d4d4d;
     --linea_separacion: #424242;
 
-}
+/* Boletines */
+    --boletin_bg: #f9f9f9;
+    --boletin_color: #4d4d4d;
 
+    --boletin_hover_bg: #f1f1f1;
+    --boletin_hover_color: #4d4d4d;
+}
 
 /*------------------------ Estilos Generales ------------------------*/
 
