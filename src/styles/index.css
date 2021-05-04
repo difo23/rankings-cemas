@@ -17,7 +17,7 @@
     --login_color: #757575;
 
 /* Menu: */
-    --menu_bg: #48b8e4;
+    --menu_bg: linear-gradient(to bottom, #4ebfec, #3682a0);
     --encabezado_color: #ffffff;
 
 /* Botón Log Out */    
