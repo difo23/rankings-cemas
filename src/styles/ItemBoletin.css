@@ -1,3 +1,5 @@
+/* --------------------- Estilos de los Boletines ----------------------- */
+
 article{
     border: solid 5px #0000002a;
     padding: 10px;
@@ -16,15 +18,19 @@ article:hover{
     transition: 110ms;
 }
 
+/* Nombre del estudiante: */
 .nombre{
     font-size: 3vh;
 }
 
+/* Número del estudiante: */
 .numero{
     float: right;
     transform: translate(0px, -8px);
 }
 
+
+/* Otros datos del estudiante */
 article li{
     font-size: 2vh;
     list-style: none;
