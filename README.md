@@ -130,7 +130,7 @@ Publica la aplicación usando GH Pages.
 Aquí va la explicación de como conectar la DB. 
 -->
 
-## Contribución
+## Contribución:
 
 1. Crea un Fork del repositorio.
 2. Clonar en tu maquina mediante `git clone url_del_repositorio_fork`.
@@ -138,7 +138,7 @@ Aquí va la explicación de como conectar la DB.
 4. Realiza tus cambios.
 5. Manda tu pull request a la rama `pre-production`.
 
-## Mantener actualizado tu Fork
+## Mantener actualizado tu Fork.
 
 Una vez tenga clonado el repositorio Fork en tu PC, lo primero que tienes que hacer es crear un remoto al repositorio principal usando: `git remote add upstream https://github.com/adonyssantos/rankings-cemas.git`. **(Esto solo lo tienes que hacer una vez).**
 
@@ -173,8 +173,7 @@ Aquí unos enlaces con información que podria serte util:
 ...
 };
  ```
- 
-#### El hook para gestionar los fecth al API es:
+ El hook para gestionar los fecth al API es:
 
 `useFetch`
 ```js
@@ -186,7 +185,7 @@ export const useFetch = (url) => {
 }
 ```
 
-#### El componente que hace la peticion y usa el useFetch:
+ El componente que hace la peticion y usa el useFetch:
 
 ```js
 import { useFetch } from "../hooks/useFetch";
