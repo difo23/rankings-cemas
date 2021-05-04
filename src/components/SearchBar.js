@@ -51,6 +51,7 @@ export default function SearchBar({ handleUrl }) {
                             type="text"
                             className="periodo"
                             placeholder="2020-2021"
+                            required
                             name="periodo"
                             value={periodo}
                             onChange={handleInputChange}
