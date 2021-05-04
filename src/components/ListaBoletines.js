@@ -76,12 +76,12 @@ export default  function ListaBoletines({ url }) {
     // console.log('Muestra ranking:', ranking)
 
     return (
-        <div>
-            <h3>Lista de boletines de {ranking[0].curso} {ranking[0].periodo}:</h3>
+        <main>
+            <h2>Lista de boletines de {ranking[0].curso} {ranking[0].periodo}:</h2>
             <hr />
             <div className="list-group">
                 {ranking.map(estudiante => <ItemBoletin key={estudiante._id} estudiante={estudiante} />)}
             </div>
-        </div>
+        </main>
     )
 }
