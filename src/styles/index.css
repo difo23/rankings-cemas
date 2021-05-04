@@ -59,7 +59,7 @@ body{
 /* Barra de Desplazamiento: */
 body::-webkit-scrollbar{
     background: #e4e4e4;
-    width: 1.1vw;
+    width: .7vw;
 }
   
 body::-webkit-scrollbar-thumb{

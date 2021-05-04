@@ -11,18 +11,6 @@
     align-items: center;
 }
 
-.container_log_in{
-    background-color: var(--container_bg);
-    padding: 5vh 5vw;
-    border-radius: calc(.5vw + .5vh);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border: #0000004f solid 1px;
-    box-shadow: 4px 4px 4px #00000075;
-}
-
 /* Botón para Iniciar Sesión */
 button.log_in{
     height: 10vh;
@@ -36,6 +24,7 @@ button.log_in{
     box-shadow: 0 2px 1px #0000005b;
     color: var(--login_color);
     font-size: calc(1vw + 2vh);
+    transition: 75ms;
 }
 
 button.log_in:hover{
