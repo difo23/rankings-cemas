@@ -1,11 +1,11 @@
 main h2{
-    color: rgb(77, 77, 77);
+    color: #4d4d4d;
     font-family:  'Trebuchet MS', sans-serif;
     margin-top: 3vh;
 }
 
 hr{
-    color: rgb(66, 66, 66);
+    color: #424242;
     border: solid 0.002vw;
     transform: translate(0vw, -0.9vw);
 }
