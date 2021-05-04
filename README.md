@@ -3,9 +3,9 @@
 Este es un proyecto escolar, consiste en crear una App con React, Bootstrap y Firebase. Se requiere ordenar el listado de estudiantes según su calificación  y promedio. Estos datos son obtenidos de un JSON desde un reporte de los estudiantes del centro.
 Esta hecho con Create React App.
 
-## Se basa en:
+## Función:
 
-En obtener el promedio a las calificaciones, calcula los índices académicos, las calificaciones generales y las técnicas de los estudiantes del centro, mostrara una la lista de los estudiantes por el Bom ordenado según las calificaciónes con un estilo simple.
+Obtener el promedio a las calificaciones, calcula los índices académicos, las calificaciones generales y las técnicas de los estudiantes del centro, mostrara una lista de los estudiantes por el Bom ordenado según las calificaciónes con un estilo simple. Busca obtener el  **promedio de las calificaciones**, esta calcula los **índices académicos** , **también las calificaciones generales** y **las técnicas** ordenadas según las calificación con un estilo simple.
 
 Este proyecto esta hecho con [Create React App](https://github.com/facebook/create-react-app).
 
@@ -17,11 +17,7 @@ Link de los reportes del proyecto [Reportes](https://drive.google.com/drive/fold
 
 ![cpt](./assets/img/main-section.png)
 
-
-
-## De que trata esta aplicación:
-
-Esta app se trata o se basa en poder sacar **promedio a las calificaciones**, esta calcula los **índices académico ,**también las calificaciones generales** y las técnicas**  de cada uno los estudiantes del centro y contara demostrar la lista de los estudiantes por el Bom ordenado según las calificación con un estilo simple. 
+ 
 
 ## Como lo hacemos :
 
