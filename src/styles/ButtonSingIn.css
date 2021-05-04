@@ -20,8 +20,8 @@ button.log_in{
     align-items: center;
     justify-content: center;
     background-color: var(--login_bg);
-    border: #0000002a solid 1px;
-    box-shadow: 0 2px 1px #0000005b;
+    border: #0000008e solid 1px;
+    box-shadow: 0 1px 1px #0000005b;
     color: var(--login_color);
     font-size: calc(1vw + 2vh);
     transition: 75ms;
