@@ -38,11 +38,11 @@ button.log_in{
     font-size: calc(1vw + 2vh);
 }
 
+button.log_in:hover{
+    box-shadow: 0 2.5px 1px #00000071;
+}
+
 button.log_in img{
     width: calc(2vw + 2vh);
     margin-right: .8vw;
-}
-
-button.log_in:hover{
-    box-shadow: 0 2.5px 1px #00000071;
 }

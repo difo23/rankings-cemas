@@ -30,6 +30,8 @@ label span{
 
 input.curso, input.periodo{
     padding: .7vw;
+    color: black;
+    font-style: normal;
 }
 
 input.curso::placeholder, input.periodo::placeholder{
