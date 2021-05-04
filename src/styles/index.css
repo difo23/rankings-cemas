@@ -25,6 +25,7 @@
     --logout_color: #3596bd;
 
 /* SearchBar */
+    --input_bg: #ffffff;
     --input_border: #57c9f6;
     --label_color: #808080;
     --placeholder: #b3b1b1;

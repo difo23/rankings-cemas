@@ -5,10 +5,10 @@ input, select{
     border-radius: .3vw;
     border: 1px solid var(--input_border);
     font-style: italic;
-    background-color: #ffffff;
+    background-color: var(--input_bg);
     font-size: calc(.8vw + .8vh);
     color: #808080;
-    box-shadow: 0 .5px 1px #808080 ;
+    box-shadow: 0 .5px 1px #808080;
 }
 
 input:focus{
