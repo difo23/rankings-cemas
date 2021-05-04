@@ -1,4 +1,6 @@
-# Introducción
+# **Ranking CEMAS**
+
+## Introducción
 
 Este es un proyecto escolar, consiste en crear una App con React, Bootstrap y Firebase. Se requiere ordenar el listado de estudiantes según su calificación  y promedio. Estos datos son obtenidos de un JSON desde un reporte de los estudiantes del centro.
 Esta hecho con Create React App.
@@ -6,6 +8,13 @@ Esta hecho con Create React App.
 ## Función:
 
 Obtener el promedio a las calificaciones, calcula los índices académicos, las calificaciones generales y las técnicas de los estudiantes del centro, mostrara una lista de los estudiantes por el Bom ordenado según las calificaciónes con un estilo simple. Busca obtener el  **promedio de las calificaciones**, esta calcula los **índices académicos** , **también las calificaciones generales** y **las técnicas** ordenadas según las calificación con un estilo simple.
+
+## objetivo:
+  
+- Ordena en un listado a los estudiantes según su número.
+- ordena en un listado a los estudiantes según su índice académico.
+- Ordena en un listado a los estudiantes según su índice técnico.
+- Ordena en un listado a los estudiantes según su índice general.
 
 Este proyecto esta hecho con [Create React App](https://github.com/facebook/create-react-app).
 
@@ -19,15 +28,11 @@ Link de los reportes del proyecto [Reportes](https://drive.google.com/drive/fold
 
  
 
-## Como lo hacemos :
+## Lo hacemos:
 
-Nuestra app **RANKING CEMAS** se realiza de una forma fácil, nosotros buscamos la forma de programar cada cosa y buscar los códigos y programas necesarios para que nos pudiera ir funcionando.
+Nuestra app RANKING CEMAS esta realizada de una manera fácil, buscamos la forma de programar cada cosa, los códigos y programas necesarios para hacerla funcionar de forma eficiente y manejarnos de forma eficaz al trabajar en equipo.
 
 
-## Esta hace lo siguiente:
-  
-*ordenar el listado de estudiantes según su numero de listado.*
-*ordenar el listado de estudiantes según su índice académico.*
 
 ## Que contiene la app:
 
