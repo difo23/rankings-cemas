@@ -10,8 +10,8 @@ const ItemBoletin = ({ estudiante }) => {
                 <ul><b>
                     <li>Asignaturas: {estudiante.asignaturas.map(asignatura => <span>{asignatura.codigo_asignatura}</span> )}</li>
                     <li>Modulos: {estudiante.modulos.map(modulo => <span>{modulo.codigo_asignatura}</span> )}</li>
-                    <li>{`Promedio Academico : ${estudiante.idx_academico}`}</li>
-                    <li>{`Promedio Tecnico : ${estudiante.idx_tecnico}`}</li>
+                    <li>{`Promedio Acádemico : ${estudiante.idx_academico}`}</li>
+                    <li>{`Promedio Técnico : ${estudiante.idx_tecnico}`}</li>
                     <li>{`Promedio General : ${estudiante.idx_general}`}</li>
                 </b></ul>
             </article>
