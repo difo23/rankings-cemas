@@ -11,13 +11,15 @@ const orderBy = (ranking) => {
   // numero_estudiante: "4" = 4
 
   return ranking.sort((a, b) => {
-    let selected = "idx-academico";
+    // let selected = "idx-academico";
+    const selected = document.getElementById("filter").value;
+    console.log("SELECTOR: ", selected)
 
     switch (selected) {
       case "num-lista":
         let numA = parseFloat(a.numero_estudiante),
           numB = parseFloat(b.numero_estudiante);
-        return filter(numA, numB);
+        return filter(numB, numA);
 
       case "idx-academico":
         return filter(a.idx_academico, b.idx_academico);
