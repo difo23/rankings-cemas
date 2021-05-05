@@ -1,7 +1,7 @@
 /* --------------------- Estilos de los Boletines ----------------------- */
 
 article{
-    border: solid 5px #0000002a;
+    border: solid 4px #0000002a;
     padding: 10px;
     z-index: 3;
     background:  var(--boletin_bg);
@@ -14,24 +14,29 @@ article{
 
 article:hover{
     background-color: var(--boletin_hover_bg);
-    border: solid 5px #3d3d3d86;
+    border: solid 4px #3d3d3d86;
     transition: 110ms;
     color: var(--boletin_hover_color);
 }
 
+/* Nombre del estudiante: */
+h3.nombre{
+    font-size: calc(1vw + 1vh);
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    color: #3784a3;
+}
+
 /* Otros datos del estudiante */
-ul.datos li{
+div.datos p{
     font-size: calc(.9vw + .9vh);
     list-style: none;
-    text-indent: 2px;
     margin-bottom: .5vh;
+    text-align: left;
 }
 
-ul.datos li {
-    color: #4d4d4d !important;
-}
-
-ul.datos li span:first-child{
+div.datos p span:first-child{
     font-weight: bold;
 }
 
