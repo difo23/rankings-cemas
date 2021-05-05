@@ -2,8 +2,8 @@ import { useState } from 'react';
 import { useAuthState } from './hooks';
 
 // Import firebaseConfig
-import { firebase } from "./config/firebase.pub";
-import './config/firebase.pub';
+import { firebase } from "./config/firebase";
+import './config/firebase';
 
 // Import Sign In With Google
 import { signInWithGoogle } from "./login";
@@ -26,11 +26,10 @@ function App() {
     if (itializing)
       return (
         <div>
-          <h3>Loadinng...</h3>
+          <h3>Loading...</h3>
         </div>
       );
   }; 
-
   return (
     <div>
          {renderLoading()}
@@ -39,11 +38,8 @@ function App() {
             <Menu />
       <div className="container" id="ranking">
         <SearchBar handleUrl={handleUrl} />
-
-        <h3>Lista de boletines:</h3>
-        
-        <hr />
-
+        {/* <h3>Lista de boletines de {curso} {periodo}:</h3> */}
+        {/* <hr /> */}
         {state && <ListaBoletines url={state} />}
       </div>
           </>

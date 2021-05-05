@@ -29,36 +29,38 @@ export default function SearchBar({ handleUrl }) {
 
     return (
         <nav>
-            <form onSubmit={loadRecords} autoComplete="off">
+            <form onSubmit={loadRecords} /* autoComplete="off" */>
                 <div className="form-row">
 
-                    <label class="col-md-3 col-sm-6">
+                    <label className="col-md-3 col-sm-6">
                         <span>Curso</span>
                         <input
                             type="text"
                             className="curso"
                             placeholder="6D"
+                            required
                             name="curso"
                             value={curso}
                             onChange={handleInputChange}
                         />
                     </label>
 
-                    <label class="col-md-3 col-sm-6">
+                    <label className="col-md-3 col-sm-6">
                         <span>Periodo</span>
                         <input
                             type="text"
                             className="periodo"
                             placeholder="2020-2021"
+                            required
                             name="periodo"
                             value={periodo}
                             onChange={handleInputChange}
                         />
                     </label>
 
-                    <label class="col-md-4 col-sm-6">
+                    <label className="col-md-4 col-sm-6">
                         <span>Ordenar</span>
-                        <select id="filter" className="dropdown">
+                        <select id="filter" className="filter dropdown">
                             <option value="num-lista">Número (Defecto)</option>
                             <option value="idx-academico">Indice Académico</option>
                             <option value="idx-tecnico">Indice Técnico</option>
@@ -66,7 +68,7 @@ export default function SearchBar({ handleUrl }) {
                         </select>
                     </label>
 
-                    <div class="container-button col-md-2 col-sm-6">
+                    <div className="container-button col-md-2 col-sm-6">
                         <button className="buscar" type="submit">Buscar</button>
                     </div>
                 </div>
