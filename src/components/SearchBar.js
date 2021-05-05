@@ -60,10 +60,10 @@ export default function SearchBar({ handleUrl }) {
 
                     <label className="col-md-4 col-sm-6">
                         <span>Ordenar</span>
-                        <select id="filter" className="dropdown">
-                            {/* <option value="num-lista" selected>Número (Defecto)</option>
+                        <select id="filter" className="filter dropdown">
+                            <option value="num-lista">Número (Defecto)</option>
                             <option value="idx-academico">Indice Académico</option>
-                            <option value="idx-tecnico">Indice Técnico</option> */}
+                            <option value="idx-tecnico">Indice Técnico</option>
                             <option value="idx-general">Indice General</option>
                         </select>
                     </label>

@@ -4,7 +4,7 @@ import {
     getIdxAcademico,
     getIdxGeneral,
     getIdxTecnico,
-    orderByIdx
+    orderBy
 } from "./helpers";
 
 export default  function ListaBoletines({ url }) {
@@ -63,7 +63,7 @@ export default  function ListaBoletines({ url }) {
         })
 
 
-        const ranking_order = orderByIdx(ranking_desorder);
+        const ranking_order = orderBy(ranking_desorder);
 
         return ranking_order;
     }
