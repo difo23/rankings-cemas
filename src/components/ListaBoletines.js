@@ -7,9 +7,9 @@ import {
     orderBy
 } from "./helpers";
 
-export default function ListaBoletines({ url }) {
+export default function ListaBoletines({ url, orden }) {
 
-    console.log("Lista Boletines URL: ", url);
+    console.log("Lista Boletines URL: ", url, orden);
     //{ data: null, loading: true, error: null }
 
     const { data, loading, error } = useFetch(url);
@@ -63,7 +63,7 @@ export default function ListaBoletines({ url }) {
         })
 
 
-        const ranking_order = orderBy(ranking_desorder);
+        const ranking_order = orderBy(ranking_desorder, orden);
 
         return ranking_order;
     }

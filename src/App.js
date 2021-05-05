@@ -9,19 +9,21 @@ import './config/firebase';
 import { signInWithGoogle } from "./login";
 
 // Import Components
-import  ButtonSingIn  from "./components/ButtonSingIn";
+import ButtonSingIn from "./components/ButtonSingIn";
 import ListaBoletines from './components/ListaBoletines';
 import SearchBar from './components/SearchBar';
 import Menu from "./components/Menu";
 
 function App() {
   const [state, setState] = useState(null);
+  const [ordenar, setOrdenar] = useState("num-lista")
 
   console.log(state);
 
-  
-  const handleUrl = (url) => {
+
+  const handleUrl = (url, ordenar) => {
     setState(url);
+    setOrdenar(ordenar);
   };
 
 
@@ -33,27 +35,27 @@ function App() {
           <h3>Loading...</h3>
         </div>
       );
-  }; 
+  };
   return (
     <div>
-         {renderLoading()}
-      { user? (
-          <>
-            <Menu />
-      <div className="container" id="ranking">
-        <SearchBar handleUrl={handleUrl} />
-        {/* <h3>Lista de boletines de {curso} {periodo}:</h3> */}
-        {/* <hr /> */}
-        {state && <ListaBoletines url={state} />}
-      </div>
-          </>
-        ): (
-          <ButtonSingIn onClick={signInWithGoogle}> 
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/768px-Google_%22G%22_Logo.svg.png" alt=""></img>
+      {renderLoading()}
+      { user ? (
+        <>
+          <Menu />
+          <div className="container" id="ranking">
+            <SearchBar handleUrl={handleUrl} />
+            {/* <h3>Lista de boletines de {curso} {periodo}:</h3> */}
+            {/* <hr /> */}
+            {state && <ListaBoletines url={state} orden={ordenar} />}
+          </div>
+        </>
+      ) : (
+        <ButtonSingIn onClick={signInWithGoogle}>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/768px-Google_%22G%22_Logo.svg.png" alt=""></img>
             Sign in with Google
-          </ButtonSingIn>
-        )}
-      </div>
+        </ButtonSingIn>
+      )}
+    </div>
   );
 }
 
