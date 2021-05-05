@@ -2,8 +2,8 @@ import { useState } from 'react';
 import { useAuthState } from './hooks';
 
 // Import firebaseConfig
-import { firebase } from "./config/firebase.pub";
-import './config/firebase.pub';
+import { firebase } from "./config/firebase";
+import './config/firebase';
 
 // Import Sign In With Google
 import { signInWithGoogle } from "./login";

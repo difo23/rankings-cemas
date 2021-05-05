@@ -1,5 +1,5 @@
 // Import firebaseConfig
-import { googleAuthProvider, firebase } from "../config/firebase.pub";
+import { googleAuthProvider, firebase } from "../config/firebase";
 
 const signInWithGoogle = async () => {
   firebase.auth().useDeviceLanguage();
