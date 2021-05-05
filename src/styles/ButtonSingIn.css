@@ -24,7 +24,6 @@ button.log_in{
     box-shadow: 0 1px 1px #0000005b;
     color: var(--login_color);
     font-size: calc(1vw + 2vh);
-    transition: 75ms;
 }
 
 button.log_in:hover{
