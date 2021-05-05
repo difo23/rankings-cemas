@@ -29,10 +29,10 @@ export default function SearchBar({ handleUrl }) {
 
     return (
         <nav>
-            <form onSubmit={loadRecords} autoComplete="off">
+            <form onSubmit={loadRecords} /* autoComplete="off" */>
                 <div className="form-row">
 
-                    <label class="col-md-3 col-sm-6">
+                    <label className="col-md-3 col-sm-6">
                         <span>Curso</span>
                         <input
                             type="text"
@@ -45,7 +45,7 @@ export default function SearchBar({ handleUrl }) {
                         />
                     </label>
 
-                    <label class="col-md-3 col-sm-6">
+                    <label className="col-md-3 col-sm-6">
                         <span>Periodo</span>
                         <input
                             type="text"
@@ -58,7 +58,7 @@ export default function SearchBar({ handleUrl }) {
                         />
                     </label>
 
-                    <label class="col-md-4 col-sm-6">
+                    <label className="col-md-4 col-sm-6">
                         <span>Ordenar</span>
                         <select id="filter" className="dropdown">
                             <option value="num-lista" selected>Número (Defecto)</option>
@@ -68,7 +68,7 @@ export default function SearchBar({ handleUrl }) {
                         </select>
                     </label>
 
-                    <div class="container-button col-md-2 col-sm-6">
+                    <div className="container-button col-md-2 col-sm-6">
                         <button className="buscar" type="submit">Buscar</button>
                     </div>
                 </div>

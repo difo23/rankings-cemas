@@ -1,0 +1,49 @@
+/* --------------------- Estilos de los Boletines ----------------------- */
+
+article{
+    border: solid 4px #0000002a;
+    padding: 10px;
+    z-index: 3;
+    background:  var(--boletin_bg);
+    transform: translate(0vw, -0.9vw);
+    margin-bottom: 2vh;
+    color: var(--boletin_color);
+    transition: 110ms;
+    border-radius: .5vw;
+}
+
+article:hover{
+    background-color: var(--boletin_hover_bg);
+    border: solid 4px #3d3d3d86;
+    transition: 110ms;
+    color: var(--boletin_hover_color);
+}
+
+/* Nombre del estudiante: */
+h3.nombre{
+    font-size: calc(1vw + 1vh);
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    color: #3784a3;
+}
+
+/* Número del estudiante */
+span.numero{
+    color: #2d6a83;
+}
+
+/* Otros datos del estudiante */
+div.datos p{
+    font-size: calc(.9vw + .9vh);
+    list-style: none;
+    margin-bottom: .5vh;
+    text-align: left;
+    text-indent: 1.5vw;
+}
+
+div.datos p span:first-child{
+    font-weight: bold;
+}
+
+

@@ -5,10 +5,10 @@ input, select{
     border-radius: .3vw;
     border: 1px solid var(--input_border);
     font-style: italic;
-    background-color: #ffffff;
+    background-color: var(--input_bg);
     font-size: calc(.8vw + .8vh);
     color: #808080;
-    box-shadow: 0 .5px 1px #808080 ;
+    box-shadow: 0 .5px 1px #808080;
 }
 
 input:focus{
@@ -30,6 +30,8 @@ label span{
 
 input.curso, input.periodo{
     padding: .7vw;
+    color: black;
+    font-style: normal;
 }
 
 input.curso::placeholder, input.periodo::placeholder{
@@ -74,4 +76,11 @@ select.dropdown{
     padding: .85vw;
     width: 65%;
     cursor: pointer;
+    color:black;
+    font-style: normal;
+}
+
+option{
+    color: #808080;
+    font-style: italic;
 }
