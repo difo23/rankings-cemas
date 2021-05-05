@@ -19,22 +19,20 @@ article:hover{
     color: var(--boletin_hover_color);
 }
 
-/* Nombre del estudiante: */
-.nombre{
-    font-size: calc(1vw + 1vh);
-}
-
-/* Número del estudiante: */
-.numero{
-    float: right;
-    transform: translate(0px, -8px);
-}
-
-
 /* Otros datos del estudiante */
-article li{
-    font-size: calc(.8vw + .8vh);
+ul.datos li{
+    font-size: calc(.9vw + .9vh);
     list-style: none;
-    text-align: left;
-    transform: translate(-30px, 0px);
+    text-indent: 2px;
+    margin-bottom: .5vh;
 }
+
+ul.datos li {
+    color: #4d4d4d !important;
+}
+
+ul.datos li span:first-child{
+    font-weight: bold;
+}
+
+
