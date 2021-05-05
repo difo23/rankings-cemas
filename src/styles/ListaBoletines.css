@@ -7,6 +7,15 @@ main h2{
     font-size: calc(1.5vw + 1.5vh);
 }
 
+h2 span:nth-child(1),span:nth-child(3){
+    color: rgb(22, 22, 22);
+    font-style: italic;
+}
+h2 span:nth-child(2){
+    color: rgb(45, 98, 168);
+    font-style: italic;
+}
+
 hr{
     color: var(--linea_separacion);
     border: solid 0.002vw;

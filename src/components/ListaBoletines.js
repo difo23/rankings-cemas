@@ -77,7 +77,7 @@ export default  function ListaBoletines({ url }) {
 
     return (
         <main>
-            <h2>Lista de boletines de los estudiantes de {ranking[0].curso} ({ranking[0].periodo}):</h2>
+            <h2>Lista de boletines de los estudiantes de <span>{ranking[0].curso} (</span><span>{ranking[0].periodo}</span><span>)</span>:</h2>
             <hr />
             <div className="list-group">
                 {ranking.map(estudiante => <ItemBoletin key={estudiante._id} estudiante={estudiante} />)}
