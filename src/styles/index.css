@@ -73,8 +73,10 @@ body::-webkit-scrollbar-thumb:hover{
 
 /* Mensaje de Loading */
 .load{
+    margin-top: 1vh;
     color: #265b70;
     font-style: italic;
+    font-size: calc(1.5vw + 1.5vh);
 }
 
 
