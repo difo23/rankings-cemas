@@ -197,4 +197,10 @@ export default function ListaBoletines({ url }) {
 }
 ```
 
+## Colaboradores de este proyecto
+
+- [Adonys Santos (Product Owner + Developer)](https://github.com/adonyssantos)
+- [ ()]()
+- [ ()]()
+- [ ()]()
 
