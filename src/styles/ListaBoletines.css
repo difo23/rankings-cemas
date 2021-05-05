@@ -18,6 +18,6 @@ h2 span:nth-child(2){
 
 hr{
     color: var(--linea_separacion);
-    border: solid 0.002vw;
+    border: solid 0.002vh;
     transform: translate(0vw, -0.9vw);
 }

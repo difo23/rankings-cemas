@@ -28,12 +28,18 @@ h3.nombre{
     color: #3784a3;
 }
 
+/* Número del estudiante */
+span.numero{
+    color: #2d6a83;
+}
+
 /* Otros datos del estudiante */
 div.datos p{
     font-size: calc(.9vw + .9vh);
     list-style: none;
     margin-bottom: .5vh;
     text-align: left;
+    text-indent: 1.5vw;
 }
 
 div.datos p span:first-child{
