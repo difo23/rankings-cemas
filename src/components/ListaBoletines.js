@@ -7,7 +7,7 @@ import {
     orderBy
 } from "./helpers";
 
-export default  function ListaBoletines({ url }) {
+export default function ListaBoletines({ url }) {
 
     console.log("Lista Boletines URL: ", url);
     //{ data: null, loading: true, error: null }
@@ -42,15 +42,15 @@ export default  function ListaBoletines({ url }) {
 
             //obtener idx_general
             const idx_general = getIdxGeneral(idx_academico, idx_tecnico);
-            
+
             //obtener curso
             const curso = estudiante.curso;
-            
+
             // obtener periodo
             const periodo = estudiante.periodo;
 
             console.log("Print.. Curso, Periodo:" + curso, periodo);
-            
+
             return {
                 ...estudiante,
                 idx_academico,
@@ -79,8 +79,7 @@ export default  function ListaBoletines({ url }) {
         <>
             <h2>
                 Lista de boletines de los estudiantes de
-                <span className="grado">{ranking[0].curso} (</span>
-                <span> {ranking[0].periodo})</span>:
+                <span> ( {ranking[0].periodo} )</span>:
             </h2>
             <hr />
             <div className="list-group">

@@ -18,9 +18,13 @@ function App() {
   const [state, setState] = useState(null);
 
   console.log(state);
+
+  
   const handleUrl = (url) => {
     setState(url);
   };
+
+
   const { user, itializing } = useAuthState(firebase.auth());
   const renderLoading = () => {
     if (itializing)
