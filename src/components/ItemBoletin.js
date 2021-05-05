@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 const ItemBoletin = ({ estudiante }) => {
-    const [active] = useState('')
+    // const [active] = useState('')
 
     return (
             <article>
