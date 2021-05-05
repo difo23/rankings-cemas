@@ -9,6 +9,7 @@ article{
     margin-bottom: 2vh;
     color: var(--boletin_color);
     transition: 110ms;
+    border-radius: .5vw;
 }
 
 article:hover{
@@ -20,7 +21,7 @@ article:hover{
 
 /* Nombre del estudiante: */
 .nombre{
-    font-size: 3vh;
+    font-size: calc(1vw + 1vh);
 }
 
 /* Número del estudiante: */
@@ -32,7 +33,7 @@ article:hover{
 
 /* Otros datos del estudiante */
 article li{
-    font-size: 2vh;
+    font-size: calc(.8vw + .8vh);
     list-style: none;
     text-align: left;
     transform: translate(-30px, 0px);

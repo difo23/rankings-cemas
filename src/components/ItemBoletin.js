@@ -6,14 +6,14 @@ const ItemBoletin = ({ estudiante }) => {
     return (
 
             <article>
-                <b className="nombre">{estudiante.nombre_estudiante}<b className="numero">{estudiante.numero_estudiante}</b></b>
-                <ul><b>
+                <h3 className="nombre">{estudiante.nombre_estudiante}<span className="numero">{estudiante.numero_estudiante}</span></h3>
+                <ul>
                     <li>Asignaturas: {estudiante.asignaturas.map(asignatura => <span>{asignatura.codigo_asignatura}</span> )}</li>
                     <li>Modulos: {estudiante.modulos.map(modulo => <span>{modulo.codigo_asignatura}</span> )}</li>
                     <li>{`Promedio Acádemico : ${estudiante.idx_academico}`}</li>
                     <li>{`Promedio Técnico : ${estudiante.idx_tecnico}`}</li>
                     <li>{`Promedio General : ${estudiante.idx_general}`}</li>
-                </b></ul>
+                </ul>
             </article>
 
 
