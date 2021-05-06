@@ -6,23 +6,25 @@ export default function SearchBar({ handleUrl }) {
 
     const initialForm = {
         curso: '',
-        periodo: ''
+        periodo: '',
+        ordenar: 'num-lista',
+
     };
 
 
     const [formValues, handleInputChange, reset] = useForm(initialForm);
 
-    const { curso, periodo } = formValues;
+    const { curso, periodo, ordenar } = formValues;
 
 
     const loadRecords = (e) => {
         e.preventDefault();
-        console.info("Form Values: ", curso, periodo);
+        console.info("Form Values: ", curso, periodo, ordenar);
 
         const url = getReportsURL(curso, periodo);
         console.info("URL: ", url);
 
-        handleUrl(url);
+        handleUrl(url, ordenar);
         reset();
 
     }
@@ -60,7 +62,7 @@ export default function SearchBar({ handleUrl }) {
 
                     <label className="col-md-4 col-sm-6">
                         <span>Ordenar</span>
-                        <select id="filter" className="filter dropdown">
+                        <select id="filter" className="filter dropdown" name="ordenar" value={ordenar} onChange={handleInputChange}>
                             <option value="num-lista">Número (Defecto)</option>
                             <option value="idx-academico">Indice Académico</option>
                             <option value="idx-tecnico">Indice Técnico</option>
