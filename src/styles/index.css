@@ -61,6 +61,11 @@ body{
     background-color: #ffffff;
 }
 
+::selection{
+    background-color: rgb(41, 40, 40);
+    color: white;
+}
+
 /* Barra de Desplazamiento: */
 body::-webkit-scrollbar{
     background: #e4e4e4;
