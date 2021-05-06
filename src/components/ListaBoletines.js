@@ -9,7 +9,7 @@ import {
 
 export default function ListaBoletines({ url, orden }) {
 
-    console.log("Lista Boletines URL: ", url, orden);
+   
     //{ data: null, loading: true, error: null }
 
     const { data, loading, error } = useFetch(url);
@@ -24,7 +24,7 @@ export default function ListaBoletines({ url, orden }) {
 
 
 
-    console.log("Datos: ", data)
+    
 
     // Algoritmo de ranking sobre data
     const algoritmoRanking = (json) => {
@@ -49,7 +49,7 @@ export default function ListaBoletines({ url, orden }) {
             // obtener periodo
             const periodo = estudiante.periodo;
 
-            console.log("Print.. Curso, Periodo:" + curso, periodo);
+           
 
             return {
                 ...estudiante,
@@ -72,15 +72,13 @@ export default function ListaBoletines({ url, orden }) {
 
     const ranking = algoritmoRanking(data);
 
-    // const curso = '6D', periodo = '2020-2021';
-    // console.log('Muestra ranking:', ranking)
-
+    
+    
     return (
         <>
             <h2>
-                Lista de boletines de los estudiantes
-                <span className="grado"> período: </span>
-                <span> ( {ranking[0].periodo})</span>:
+                <span className="encabezado_boletines">Lista de boletines de los estudiantes:</span>
+                <span className="periodo">{ranking[0].periodo}</span>
             </h2>
             <hr />
             <div className="list-group">

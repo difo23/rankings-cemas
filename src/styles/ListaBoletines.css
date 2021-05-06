@@ -1,19 +1,22 @@
-/* ------------------------ Título del Boletín --------------------------- */
+/* ------------------------ Encabezado del Boletín --------------------------- */
 
-main h2{
-    color: var(--titulo_boletines);
+h2{
     font-family:  'Trebuchet MS', sans-serif;
     margin-top: 3vh;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+h2 span.encabezado_boletines{
+    color: var(--titulo_boletines);
     font-size: calc(1.5vw + 1.5vh);
 }
 
-h2 span.grado:nth-child(1),span.grado:nth-child(3){
-    color: rgb(22, 22, 22);
+h2 span.periodo{
+    color: #3d78c4;
     font-style: italic;
-}
-h2 span:nth-child(2){
-    color: rgb(45, 98, 168);
-    font-style: italic;
+    font-size: calc(1vw + 1vh);
 }
 
 hr{
