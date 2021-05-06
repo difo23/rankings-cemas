@@ -1,5 +1,7 @@
 ## Esto es un ejemplo de lo que va en `firebase.js`
 
+Debes crear un archivo llamado `firebase.js` en donde agregues el siguiente código, junto a las claves de `Firebase`. 
+
 ```javascript
 import firebase from "firebase/app";
 import "firebase/auth";

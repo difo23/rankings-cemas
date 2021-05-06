@@ -4,19 +4,19 @@ import {
     getIdxAcademico,
     getIdxGeneral,
     getIdxTecnico,
-    orderByIdx
+    orderBy
 } from "./helpers";
 
-export default function ListaBoletines({ url }) {
+export default function ListaBoletines({ url, orden }) {
 
-    console.log("Lista Boletines URL: ", url);
+   
     //{ data: null, loading: true, error: null }
 
     const { data, loading, error } = useFetch(url);
 
     if (loading && url) {
 
-        return <h1>Loading</h1>
+        return <h1 className="load">Loading..</h1>
     } else if (error) {
         console.log(error);
         return <h3>{error}</h3>
@@ -24,7 +24,7 @@ export default function ListaBoletines({ url }) {
 
 
 
-    console.log("Datos: ", data)
+    
 
     // Algoritmo de ranking sobre data
     const algoritmoRanking = (json) => {
@@ -43,17 +43,27 @@ export default function ListaBoletines({ url }) {
             //obtener idx_general
             const idx_general = getIdxGeneral(idx_academico, idx_tecnico);
 
+            //obtener curso
+            const curso = estudiante.curso;
+
+            // obtener periodo
+            const periodo = estudiante.periodo;
+
+           
+
             return {
                 ...estudiante,
                 idx_academico,
                 idx_tecnico,
-                idx_general
+                idx_general,
+                curso,
+                periodo
             }
 
         })
 
 
-        const ranking_order = orderByIdx(ranking_desorder);
+        const ranking_order = orderBy(ranking_desorder, orden);
 
         return ranking_order;
     }
@@ -62,13 +72,19 @@ export default function ListaBoletines({ url }) {
 
     const ranking = algoritmoRanking(data);
 
-
+    
+    
     return (
-        <div>
+        <>
+            <h2>
+                Lista de boletines de los estudiantes
+                <span className="grado"> período: </span>
+                <span> ( {ranking[0].periodo})</span>:
+            </h2>
+            <hr />
             <div className="list-group">
                 {ranking.map(estudiante => <ItemBoletin key={estudiante._id} estudiante={estudiante} />)}
-
             </div>
-        </div>
+        </>
     )
 }

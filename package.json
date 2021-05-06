@@ -1,5 +1,5 @@
 {
-  "homepage": "https://difo23.github.io/rankings-cemas/",
+  "homepage": "http://adonyssantos.me/rankings-cemas/",
   "name": "ranking-cemas",
   "version": "0.1.0",
   "private": true,
@@ -7,10 +7,7 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
-<<<<<<< Updated upstream
-=======
-    "firebase": "^8.4.2",
->>>>>>> Stashed changes
+    "firebase": "^8.4.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "^4.0.2",
