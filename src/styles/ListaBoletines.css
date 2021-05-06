@@ -1,4 +1,11 @@
-/* ------------------------ Título del Boletín --------------------------- */
+/* ------------------------ Encabezado del Boletín --------------------------- */
+
+h2 span.encabezado_boletines{
+    color: var(--titulo_boletines);
+    font-family:  'Trebuchet MS', sans-serif;
+    margin-top: 3vh;
+    font-size: calc(1.5vw + 1.5vh);
+}
 
 hr{
     color: var(--linea_separacion);
