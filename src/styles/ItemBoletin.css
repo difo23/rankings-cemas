@@ -46,4 +46,19 @@ div.datos p span:first-child{
     font-weight: bold;
 }
 
+/* Grado del estudiante */
+div.grado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 3%;
+    right: .7%;
+    color: white;
+    font-size: calc(.8vw + .8vh);
+    padding: calc(.4vw + .4vh);
+    background-color: rgb(121, 121, 121);
+    border-radius: 50%;
+    border: solid 1px rgb(63, 63, 63);
+}
 
