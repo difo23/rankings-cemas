@@ -57,8 +57,8 @@ div.grado{
     color: white;
     font-size: calc(.8vw + .8vh);
     padding: calc(.4vw + .4vh);
-    background-color: #797979;
+    background-color: var(--boletin_grado_bg);
     border-radius: 50%;
-    border: solid 1px #3f3f3f;
+    border: solid 1px var(--boletin_grado_color);
 }
 
