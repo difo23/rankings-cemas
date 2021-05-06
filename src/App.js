@@ -18,7 +18,7 @@ function App() {
   const [state, setState] = useState(null);
   const [ordenar, setOrdenar] = useState("num-lista")
 
-  console.log(state);
+  
 
 
   const handleUrl = (url, ordenar) => {
