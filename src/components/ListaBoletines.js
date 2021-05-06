@@ -77,9 +77,8 @@ export default function ListaBoletines({ url, orden }) {
     return (
         <>
             <h2>
-                Lista de boletines de los estudiantes
-                <span className="grado"> período: </span>
-                <span> ( {ranking[0].periodo})</span>:
+                <span className="encabezado_boletines">Lista de boletines de los estudiantes:</span>
+                <span className="periodo">{ranking[0].periodo}</span>
             </h2>
             <hr />
             <div className="list-group">

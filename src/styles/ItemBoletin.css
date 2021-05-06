@@ -3,12 +3,10 @@
 article{
     border: solid 4px #0000002a;
     padding: 10px;
-    z-index: 3;
     background:  var(--boletin_bg);
     transform: translate(0vw, -0.9vw);
     margin-bottom: 2vh;
     color: var(--boletin_color);
-    transition: 110ms;
     border-radius: .5vw;
 }
 
@@ -30,7 +28,7 @@ h3.nombre{
 
 /* Número del estudiante */
 span.numero{
-    color: #2d6a83;
+    color: var(--boletin_num);
 }
 
 /* Otros datos del estudiante */
@@ -46,4 +44,19 @@ div.datos p span:first-child{
     font-weight: bold;
 }
 
+/* Grado del estudiante */
+div.grado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 3%;
+    right: .7%;
+    color: white;
+    font-size: calc(.8vw + .8vh);
+    padding: calc(.4vw + .4vh);
+    background-color: var(--boletin_grado_bg);
+    border-radius: 50%;
+    border: solid 1px var(--boletin_grado_color);
+}
 
