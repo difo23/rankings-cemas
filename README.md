@@ -202,6 +202,6 @@ export default function ListaBoletines({ url }) {
 
 - [Adonys Santos (Product Owner + Developer)](https://github.com/adonyssantos)
 - [Leidy Laura (Developer)](https://github.com/leidylauraverasveras)
-- [ ()]()
+- [ Gregory Pimentel (Developer)](https://github.com/Gregorypimentel)
 - [ ()]()
 
