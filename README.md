@@ -63,6 +63,15 @@ Nuestra app RANKING CEMAS esta realizada de una manera fácil, buscamos la for
  
  Esta es una app que todos los estudiantes y maestros podrán utilizar con el beneficio de adquirir las calificaciones de forma mas sencilla, con esta no habrá que realizar todo el complicado proceso manual que se estuvo haciendo a día de hoy, si no mas bien solo acceder a la app y ver cual es tu calificación, es una forma de simplificar las formas manuales de hacer las cosas. 
 
+ ## Metodologías a Utilizar
+ Para realizar este proyecto utilizamos dos Metogologías Ágiles que fueron Scrum y Kanban. 
+
+## Scrum 
+ Scrum es una de las metodologías ágiles que utilizamos, separamos un grupo de estudiantes que se encargaban de monitoriar el trabajo y rendimiento de los desarrolladores con la aplicación, controlando las tareas que estos realizaban poniendoles fechas limítes para ir cumpliendo con tareas para la creación y evolución de esta. También el equipo scrum se encargaba de tomar los reportes de las Daily que se realizaban y las conferencias con lo clientes.
+
+## Kanban 
+ Para aplicar la metodología ágil de kanban utilizamos Trello donde con su software de lista se pudo crear las historias de usuario que nos hizo más facíl la forma de organizarnos a distancia. Cada día los desarrolladores luego de terminar una tarea son enviadas a los Product Owners que son quienes deciden si ese aporte se complementa con la rama principal.
+
 ## Informaciones de los reportes y las metodologias utilizadas.
 
 Se realizan para documentar todo lo que se realizado en las reuniones, las tareas u otras actividades relacionadas con el proyecto.
