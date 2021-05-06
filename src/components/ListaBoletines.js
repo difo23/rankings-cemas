@@ -9,7 +9,7 @@ import {
 
 export default function ListaBoletines({ url, orden }) {
 
-    console.log("Lista Boletines URL: ", url, orden);
+   
     //{ data: null, loading: true, error: null }
 
     const { data, loading, error } = useFetch(url);
