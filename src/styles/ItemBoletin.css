@@ -3,12 +3,10 @@
 article{
     border: solid 4px #0000002a;
     padding: 10px;
-    z-index: 3;
     background:  var(--boletin_bg);
     transform: translate(0vw, -0.9vw);
     margin-bottom: 2vh;
     color: var(--boletin_color);
-    transition: 110ms;
     border-radius: .5vw;
 }
 
@@ -30,7 +28,7 @@ h3.nombre{
 
 /* Número del estudiante */
 span.numero{
-    color: #2d6a83;
+    color: var(--boletin_num);
 }
 
 /* Otros datos del estudiante */
