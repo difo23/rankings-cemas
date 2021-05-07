@@ -6,7 +6,6 @@ Este es un proyecto escolar, consiste en crear una App con React, Bootstrap y Fi
 
 **Link de los Reportes del proyecto:** (https://drive.google.com/drive/folders/1sJdno7Qg00N_rRsHNCbQpDaTjWBCEIAA).
 
-
 ## Función.
 
 Obtener el promedio a las calificaciones, calcula los índices académicos, las calificaciones generales y las técnicas de los estudiantes del centro, mostrara una lista de los estudiantes por el Bom ordenado según las calificaciónes con un estilo simple. Busca obtener el  **promedio de las calificaciones**, esta calcula los **índices académicos** , **también las calificaciones generales** y **las técnicas** ordenadas según las calificación con un estilo simple.
@@ -18,16 +17,11 @@ Obtener el promedio a las calificaciones, calcula los índices académicos, la
 - Ordena en un listado a los estudiantes según su índice técnico.
 - Ordena en un listado a los estudiantes según su índice general.
 
+## Proyecto Terminado.
 
+![Ranking Cemas](./assets/img/app_final.png)
 
-
-## Capturas de pantalla.
-
-![cpt](./assets/img/main-section.png)
-
- 
-
-## Lo hacemos.
+## Lo que hacemos.
 
 Nuestra app RANKING CEMAS esta realizada de una manera fácil, buscamos la forma de programar cada cosa, los códigos y programas necesarios para hacerla funcionar de forma eficiente y manejarnos de forma eficaz al trabajar en equipo.
 
@@ -53,7 +47,6 @@ Nuestra app RANKING CEMAS esta realizada de una manera fácil, buscamos la for
 - Solo los del centro podrán tomar información de la app.
 - Buena elaboración.
 
-
 ## Desventajas:
 
 - Existe la posibilidad de que algún usuario no autorizado acceda a la información que ofrece.
@@ -63,13 +56,13 @@ Nuestra app RANKING CEMAS esta realizada de una manera fácil, buscamos la for
  
  Esta es una app que todos los estudiantes y maestros podrán utilizar con el beneficio de adquirir las calificaciones de forma mas sencilla, con esta no habrá que realizar todo el complicado proceso manual que se estuvo haciendo a día de hoy, si no mas bien solo acceder a la app y ver cual es tu calificación, es una forma de simplificar las formas manuales de hacer las cosas. 
 
- ## Metodologías a Utilizar
+ ## Metodologías utilizadas.
  Para realizar este proyecto utilizamos dos Metogologías Ágiles que fueron Scrum y Kanban. 
 
-## Scrum 
+### Scrum 
  Scrum es una de las metodologías ágiles que utilizamos, separamos un grupo de estudiantes que se encargaban de monitoriar el trabajo y rendimiento de los desarrolladores con la aplicación, controlando las tareas que estos realizaban poniendoles fechas limítes para ir cumpliendo con tareas para la creación y evolución de esta. También el equipo scrum se encargaba de tomar los reportes de las Daily que se realizaban y las conferencias con lo clientes.
 
-## Kanban 
+### Kanban 
  Para aplicar la metodología ágil de kanban utilizamos Trello donde con su software de lista se pudo crear las historias de usuario que nos hizo más facíl la forma de organizarnos a distancia. Cada día los desarrolladores luego de terminar una tarea son enviadas a los Product Owners que son quienes deciden si ese aporte se complementa con la rama principal.
 
 ## Informaciones de los reportes y las metodologias utilizadas.
@@ -103,6 +96,14 @@ Se realizan para documentar todo lo que se realizado en las reuniones, las tarea
 * [Reporte #14](https://drive.google.com/file/d/1Ow0a1tN_h6Yp6iJOjH8ooYDy7vPcEAQ7/view?usp=sharing)
 * [Reporte #15](https://drive.google.com/file/d/12HqW4tq1XawkPLL-vkl3hnt8H8y0xL9F/view?usp=sharing)
 
+## Colaboradores de este proyecto:
+
+- [Adonys Santos (Product Owner + Developer)](https://github.com/adonyssantos)
+- [Rusbert Sánchez](https://github.com/Rusbert8) (Product Owner + Developer)
+- [Yusset Roque Martinez (Developer)](https://github.com/YussetRoque)
+- [Leidy Laura (Developer)](https://github.com/leidylauraverasveras)
+- [Gregory Pimentel (Developer)](https://github.com/Gregorypimentel)
+- [ ()]()
 
 ## Scripts.
 
@@ -207,12 +208,5 @@ export default function ListaBoletines({ url }) {
 }
 ```
 
-## Colaboradores de este proyecto
 
-- [Adonys Santos (Product Owner + Developer)](https://github.com/adonyssantos)
-- [Rusbert Sánchez](https://github.com/Rusbert8) (Product Owner + Developer)
-- [Yusset Roque Martinez (Developer)](https://github.com/YussetRoque)
-- [Leidy Laura (Developer)](https://github.com/leidylauraverasveras)
-- [ Gregory Pimentel (Developer)](https://github.com/Gregorypimentel)
-- [ ()]()
 
