@@ -8,6 +8,13 @@
 	Este es un proyecto escolar, consiste en crear una App con React, Bootstrap y Firebase. Se requiere ordenar el listado de estudiantes según su calificación  y promedio. Estos datos son obtenidos de un JSON desde un reporte de los estudiantes del centro. 
 </p>
 
+## Tabla de contenido
+
+- [Backlog](#backlog)
+- [Captura de pantalla](#captura-de-pantalla)
+- [Scripts](#scripts)
+- [Peticion de los reportes](#peticion-de-los-reportes)
+- [Colaboradores de este proyecto](#colaboradores-de-este-proyecto)
 ## Backlog
 
 - Debe mostrar el listado de estudiantes. 
