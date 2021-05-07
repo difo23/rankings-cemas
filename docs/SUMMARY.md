@@ -19,7 +19,7 @@ Nuestra app [Ranking Cemas](http://adonyssantos.me/rankings-cemas/) esta reali
 - Solo los del centro podrán tomar información de la app.
 - Buena elaboración.
 
- ## Beneficios
+ # Beneficios
  
  Esta es una app que todos los estudiantes y maestros podrán utilizar con el beneficio de adquirir las calificaciones de forma mas sencilla, con esta no habrá que realizar todo el complicado proceso manual que se estuvo haciendo a día de hoy, si no mas bien solo acceder a la app y ver cual es tu calificación, es una forma de simplificar las formas manuales de hacer las cosas. 
  
