@@ -1,4 +1,12 @@
-# **Ranking Cemas**
+<p align="center">
+	<img src="./assets/img/cemas_logo.png" alt="Logo del Centro Educativo Manuel Acevedo Serrano" title="Logo del Centro Educativo Manuel Acevedo Serrano" width="200"/>
+</p>
+
+<h2 align="center">Ranking Cemas</h2>
+
+<p align="center">
+	Este es un proyecto escolar, consiste en crear una App con React, Bootstrap y Firebase. Se requiere ordenar el listado de estudiantes según su calificación  y promedio. Estos datos son obtenidos de un JSON desde un reporte de los estudiantes del centro. 
+</p>
 
 ## Introducción.
 
