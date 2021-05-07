@@ -72,13 +72,11 @@ export default function ListaBoletines({ url, orden }) {
 
     const ranking = algoritmoRanking(data);
 
-    
-    
     return (
         <>
             <h2>
                 <span className="encabezado_boletines">Lista de boletines de los estudiantes:</span>
-                <span className="periodo">{ranking[0].periodo}</span>
+                <span className="periodo">{ranking.length > 0 ? ranking[0].periodo : ranking}</span>
             </h2>
             <hr />
             <div className="list-group">
