@@ -1,6 +1,5 @@
 const orderBy = (ranking, selected) => {
   const filter = (ap, bp) => {
-
     const a = ap ? ap : 0;
     const b = bp ? bp : 0;
 
@@ -17,24 +16,19 @@ const orderBy = (ranking, selected) => {
   return ranking.sort((a, b) => {
     // let selected = "idx-academico";
 
-
     switch (selected) {
       case "num-lista":
-       
         let numA = parseFloat(a.numero_estudiante),
           numB = parseFloat(b.numero_estudiante);
         return filter(numB, numA);
 
       case "idx-academico":
-       
         return filter(a.idx_academico, b.idx_academico);
 
       case "idx-tecnico":
-        
         return filter(a.idx_tecnico, b.idx_tecnico);
 
       case "idx-general":
-        
         return filter(a.idx_general, b.idx_general);
 
       default:
