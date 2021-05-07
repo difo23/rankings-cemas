@@ -19,10 +19,8 @@ export default function SearchBar({ handleUrl }) {
 
     const loadRecords = (e) => {
         e.preventDefault();
-        console.info("Form Values: ", curso, periodo, ordenar);
-
+        
         const url = getReportsURL(curso, periodo);
-        console.info("URL: ", url);
 
         handleUrl(url, ordenar);
         reset();
