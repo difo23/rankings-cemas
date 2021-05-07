@@ -8,85 +8,81 @@
 
 /*------------------------------ Variables de Colores ----------------------------*/
 
-:root{
+:root {
+  /* Log In */
+  --background: #7eb2c4;
+  --container_bg: #4aa5c8;
+  --login_bg: #ffffff;
+  --login_color: #757575;
 
-/* Log In */
-    --background: #7eb2c4;
-    --container_bg: #4aa5c8;
-    --login_bg: #ffffff;
-    --login_color: #757575;
+  /* Menu: */
+  --menu_bg: linear-gradient(to bottom, #4ebfec, #3682a0);
+  --encabezado_color: #ffffff;
 
-/* Menu: */
-    --menu_bg: linear-gradient(to bottom, #4ebfec, #3682a0);
-    --encabezado_color: #ffffff;
+  /* Botón Log Out */
+  --logout_bg: #ffffff;
+  --logout_color: #3596bd;
 
-/* Botón Log Out */    
-    --logout_bg: #ffffff;
-    --logout_color: #3596bd;
+  /* SearchBar */
+  --input_bg: #ffffff;
+  --input_border: #57c9f6;
+  --label_color: #808080;
+  --placeholder: #b3b1b1;
 
-/* SearchBar */
-    --input_bg: #ffffff;
-    --input_border: #57c9f6;
-    --label_color: #808080;
-    --placeholder: #b3b1b1;
+  /* Botón Search */
+  --btn_search_bg: #42add8;
+  --btn_search_color: #ffffff;
+  --btn_search_border: #4572d3;
 
-/* Botón Search */
-    --btn_search_bg: #42add8;   
-    --btn_search_color: #ffffff;
-    --btn_search_border: #4572d3;
+  /* Encabezado de la Lista de Boletines */
+  --titulo_boletines: #4d4d4d;
+  --linea_separacion: #424242;
 
-/* Encabezado de la Lista de Boletines */
-    --titulo_boletines: #4d4d4d;
-    --linea_separacion: #424242;
+  /* Boletines */
+  --boletin_bg: #f9f9f9;
+  --boletin_color: #4d4d4d;
 
-/* Boletines */
-    --boletin_bg: #f9f9f9;
-    --boletin_color: #4d4d4d;
+  --boletin_hover_bg: #f1f1f1;
+  --boletin_hover_color: #4d4d4d;
 
-    --boletin_hover_bg: #f1f1f1;
-    --boletin_hover_color: #4d4d4d;
-
-    --boletin_num:#2d6a83;
-    --boletin_grado_bg: #797979;
-    --boletin_grado_color: #3f3f3f;
+  --boletin_num: #2d6a83;
+  --boletin_grado_bg: #797979;
+  --boletin_grado_color: #3f3f3f;
 }
 
 /*------------------------ Estilos Generales ------------------------*/
 
-*{
-    font-family: "Open Sans", sans-serif;
+* {
+  font-family: "Open Sans", sans-serif;
 }
 
-body{
-    background-color: #ffffff;
+body {
+  background-color: #ffffff;
 }
 
-::selection{
-    background-color: rgb(41, 40, 40);
-    color: white;
+::selection {
+  background-color: rgb(41, 40, 40);
+  color: white;
 }
 
 /* Barra de Desplazamiento: */
-body::-webkit-scrollbar{
-    background: #e4e4e4;
-    width: .7vw;
-}
-  
-body::-webkit-scrollbar-thumb{
-    background: #222020;
+body::-webkit-scrollbar {
+  background: #e4e4e4;
+  width: 0.7vw;
 }
 
-body::-webkit-scrollbar-thumb:hover{
-    background: #265b70;
+body::-webkit-scrollbar-thumb {
+  background: #222020;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #265b70;
 }
 
 /* Mensaje de Loading */
-.load{
-    margin-top: 1vh;
-    color: #265b70;
-    font-style: italic;
-    font-size: calc(1.5vw + 1.5vh);
+.load {
+  margin-top: 1vh;
+  color: #265b70;
+  font-style: italic;
+  font-size: calc(1.5vw + 1.5vh);
 }
-
-
-
