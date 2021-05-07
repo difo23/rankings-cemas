@@ -7,9 +7,9 @@ import {
     orderBy
 } from "./helpers";
 
-export default  function ListaBoletines({ url }) {
+export default function ListaBoletines({ url, orden }) {
 
-    console.log("Lista Boletines URL: ", url);
+   
     //{ data: null, loading: true, error: null }
 
     const { data, loading, error } = useFetch(url);
@@ -24,7 +24,7 @@ export default  function ListaBoletines({ url }) {
 
 
 
-    console.log("Datos: ", data)
+    
 
     // Algoritmo de ranking sobre data
     const algoritmoRanking = (json) => {
@@ -42,15 +42,15 @@ export default  function ListaBoletines({ url }) {
 
             //obtener idx_general
             const idx_general = getIdxGeneral(idx_academico, idx_tecnico);
-            
+
             //obtener curso
             const curso = estudiante.curso;
-            
+
             // obtener periodo
             const periodo = estudiante.periodo;
 
-            console.log("Print.. Curso, Periodo:" + curso, periodo);
-            
+           
+
             return {
                 ...estudiante,
                 idx_academico,
@@ -63,7 +63,7 @@ export default  function ListaBoletines({ url }) {
         })
 
 
-        const ranking_order = orderBy(ranking_desorder);
+        const ranking_order = orderBy(ranking_desorder, orden);
 
         return ranking_order;
     }
@@ -72,15 +72,13 @@ export default  function ListaBoletines({ url }) {
 
     const ranking = algoritmoRanking(data);
 
-    // const curso = '6D', periodo = '2020-2021';
-    // console.log('Muestra ranking:', ranking)
-
+    
+    
     return (
         <>
             <h2>
-                Lista de boletines de los estudiantes de
-                <span className="grado">{ranking[0].curso} (</span>
-                <span> {ranking[0].periodo})</span>:
+                <span className="encabezado_boletines">Lista de boletines de los estudiantes:</span>
+                <span className="periodo">{ranking[0].periodo}</span>
             </h2>
             <hr />
             <div className="list-group">
