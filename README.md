@@ -24,19 +24,19 @@
 - Debe obtener la información desde la base de datos del centro educativo. 
 - Debe contar con un sistema de inicio de sesión para saber quien usa esta app.
 
-## Proyecto Terminado.
+## Captura de pantalla
 
 ![Ranking Cemas](./assets/img/app_final.png)
 
-## Scripts.
+## Scripts
 
 En este proyecto puedes correr los siguientes Scripts:
 
-### `yarn install` o `npm install`
+### `npm install`
 
 Para instalar los módulos necesarios de Node.
 
-### `yarn start` o ``npm start``
+### ``npm start``
 
 Ejecuta la aplicación en el modo de desarrollo. \
 Abra [http://localhost:3000](http://localhost:3000) para visualizarlo en el navegador.
@@ -44,7 +44,7 @@ Abra [http://localhost:3000](http://localhost:3000) para visualizarlo en el nave
 La página se recargará si realiza modificaciones. \
 También verá cualquier error por la consola.
 
-### `yarn run predeploy` o `npm run predeploy`
+### `npm run predeploy`
 
 Construye la aplicación para producción en la carpeta `build`. \
 Agrupa correctamente React en el modo de producción y optimiza la compilación para obtener el mejor rendimiento.
@@ -54,23 +54,17 @@ La compilación se minimiza y los nombres de archivo incluyen los hash. \
 
 Para mas información visita la sección [deployment](https://facebook.github.io/create-react-app/docs/deployment). 
 
-### `yarn run deploy` o `npm run deploy`
+### `npm run deploy`
 
 Publica la aplicación usando GH Pages.
 
-<!-- 
-## Firebase
+## Peticion de los reportes 
 
-Aquí va la explicación de como conectar la DB. 
--->
+El primer paso del algoritmo es obtener los reportes por curso y periodo. Por ejemplo `4A:2020-2021`.
 
- ## El primer paso del algoritmo es obtener los reportes por curso y periodo:      
- `4A:2020-2021`
- 
- ### Para llevar acabo la peticion de los reportes debemos usar: 
- #### La funcion para crear la URL que solicita los reportes al API: 
+La siguiente funcion nos sirve para formar la URL para el pedido de reportes: 
 
- La siguiente funcion nos sirve para formar la URL para el pedido de reportes: 
+**`getReportsURL.js`**
  ```js
  const getReportsURL = (curso, periodo) => {
 
@@ -81,39 +75,42 @@ Aquí va la explicación de como conectar la DB.
 	 * @URL https://cemasapi.herokuapp.com/reportes/boletin/4A:2020-2021:
 	 * @return  {String}	URL	 String URL .
 	 */
-...
-};
- ```
- El hook para gestionar los fecth al API es:
+// code...
 
-`useFetch`
+};
+
+```
+
+El hook para gestionar los fecth al API es:
+
+**`useFetch.js`**
 ```js
 import { useState, useEffect, useRef } from 'react';
 
-
 export const useFetch = (url) => {
-...
+	// code
 }
+
 ```
 
- El componente que hace la peticion y usa el useFetch:
+El componente que hace la peticion y usa el useFetch:
 
+**`ListaBoletines.js`**
 ```js
 import { useFetch } from "../hooks/useFetch";
 import ItemBoletin from "./ItemBoletin";
 
 
 export default function ListaBoletines({ url }) {
-...
+// code...
 }
+
 ```
 
-## Colaboradores de este proyecto:
+## Colaboradores de este proyecto
 
-- [Adonys Santos (Product Owner + Developer)](https://github.com/adonyssantos)
+- [Adonys Santos ](https://github.com/adonyssantos) (Product Owner + Developer)
 - [Rusbert Sánchez](https://github.com/Rusbert8) (Product Owner + Developer)
-- [Yusset Roque Martinez (Developer)](https://github.com/YussetRoque)
-- [Leidy Laura (Developer)](https://github.com/leidylauraverasveras)
-- [Gregory Pimentel (Developer)](https://github.com/Gregorypimentel)
-- [ ()]()
-
+- [Yusset Roque Martinez ](https://github.com/YussetRoque) (Developer)
+- [Leidy Laura ](https://github.com/leidylauraverasveras) (Developer)
+- [Gregory Pimentel ](https://github.com/Gregorypimentel) (Developer)
