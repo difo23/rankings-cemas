@@ -1,8 +1,4 @@
-// import React, { useState } from 'react'
-
 const ItemBoletin = ({ estudiante }) => {
-    // const [active] = useState('')
-
     return (
             <article>
                 <h3 className="nombre">{estudiante.nombre_estudiante}<span className="numero">#{estudiante.numero_estudiante}</span></h3>
