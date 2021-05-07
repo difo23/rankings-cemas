@@ -1,5 +1,3 @@
-import { getByLabelText } from "@testing-library/dom";
-
 const orderBy = (ranking, selected) => {
   const filter = (ap, bp) => {
 
