@@ -1,23 +1,49 @@
-# Introducción
+<p align="center">
+	<img src="./assets/img/cemas_logo.png" alt="Logo del Centro Educativo Manuel Acevedo Serrano" title="Logo del Centro Educativo Manuel Acevedo Serrano" width="200"/>
+</p>
 
-Este es un proyecto escolar grupal, que consiste en crear una App con React, Bootstrap y Firebase. Se requiere ordenar el listado de estudiantes según su calificación promedio. Todos estos datos son obtenidos desde un JSON con un reporte de los restudiantes del centro.
+<h2 align="center">Ranking Cemas</h2>
 
-Este proyecto esta hecho con [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+	Este es un proyecto escolar, consiste en crear una App con React, Bootstrap y Firebase. Se requiere ordenar el listado de estudiantes según su calificación  y promedio. Estos datos son obtenidos de un JSON desde un reporte de los estudiantes del centro. 
+</p>
 
+## Tabla de contenido
 
-## Capturas de pantalla
+- [Backlog](#backlog)
+- [Captura de pantalla](#captura-de-pantalla)
+- [Scripts](#scripts)
+- [Peticion de los reportes](#peticion-de-los-reportes)
+- [Colaboradores de este proyecto](#colaboradores-de-este-proyecto)
+## Backlog
 
-![](./assets/img/main-section.png)
+- Debe mostrar el listado de estudiantes. 
+- Debe tener una barra de búsqueda para filtrar los estudiantes por curso.
+- Debe tener una barra de búsqueda para filtrar los estudiantes por periodo.
+- Debe tener una barra de búsqueda para filtrar los estudiantes por índice.
+- Debe mostrar el listado de estudiantes con su índice académico.
+- Debe mostrar el listado de estudiantes con su índice técnico.
+- Debe mostrar el listado de estudiantes con su índice general.
+- Debe ordenar el listado de estudiantes según su número de lista.
+- Debe ordenar el listado de estudiantes según su índice académico.
+- Debe ordenar el listado de estudiantes según su índice técnico.
+- Debe ordenar el listado de estudiantes según su índice general.
+- Debe obtener la información desde la base de datos del centro educativo. 
+- Debe contar con un sistema de inicio de sesión para saber quien usa esta app.
+
+## Captura de pantalla
+
+![Ranking Cemas](./assets/img/screenshot_pc.png)
 
 ## Scripts
 
 En este proyecto puedes correr los siguientes Scripts:
 
-### `yarn install` o `npm install`
+### `npm install`
 
 Para instalar los módulos necesarios de Node.
 
-### `yarn start` o ``npm start``
+### ``npm start``
 
 Ejecuta la aplicación en el modo de desarrollo. \
 Abra [http://localhost:3000](http://localhost:3000) para visualizarlo en el navegador.
@@ -25,7 +51,7 @@ Abra [http://localhost:3000](http://localhost:3000) para visualizarlo en el nave
 La página se recargará si realiza modificaciones. \
 También verá cualquier error por la consola.
 
-### `yarn run predeploy` o `npm run predeploy`
+### `npm run predeploy`
 
 Construye la aplicación para producción en la carpeta `build`. \
 Agrupa correctamente React en el modo de producción y optimiza la compilación para obtener el mejor rendimiento.
@@ -35,45 +61,17 @@ La compilación se minimiza y los nombres de archivo incluyen los hash. \
 
 Para mas información visita la sección [deployment](https://facebook.github.io/create-react-app/docs/deployment). 
 
-### `yarn run deploy` o `npm run deploy`
+### `npm run deploy`
 
 Publica la aplicación usando GH Pages.
 
-<!-- 
-## Firebase
+## Peticion de los reportes 
 
-Aquí va la explicación de como conectar la DB. 
--->
+El primer paso del algoritmo es obtener los reportes por curso y periodo. Por ejemplo `4A:2020-2021`.
 
-## Contribución
+La siguiente funcion nos sirve para formar la URL para el pedido de reportes: 
 
-1. Crea un Fork del repositorio.
-2. Clonar en tu maquina mediante `git clone url_del_repositorio_fork`.
-3. Crear una nueva rama con el nombre de tu feature.
-4. Realiza tus cambios.
-5. Manda tu pull request a la rama `pre-production`.
-
-## Mantener actualizado tu Fork
-
-Una vez tenga clonado el repositorio Fork en tu PC, lo primero que tienes que hacer es crear un remoto al repositorio principal usando: `git remote add upstream https://github.com/adonyssantos/rankings-cemas.git`. **(Esto solo lo tienes que hacer una vez).**
-
-Luego cada vez que se haga un cambio en el repositorio principal y lo quieras traer a tu fork usa los siguientes comandos:
-
-1. `git pull upstream main`
-2. `git push origin main`
-
-**Nota:** recuerda estar ubicado dentro de la rama que quieres actualizar.
-
-Aquí unos enlaces con información que podria serte util:
-1. https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork#platform-linux
-2. https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork#platform-linux
-
- ## El primer paso del algoritmo es obtener los reportes por curso y periodo:      
- `4A:2020-2021`
- 
- ### Para llevar acabo la peticion de los reportes debemos usar: 
- #### La funcion para crear la URL que solicita los reportes al API: 
- La siguiente funcion nos sirve para formar la URL para el pedido de reportes: 
+**`getReportsURL.js`**
  ```js
  const getReportsURL = (curso, periodo) => {
 
@@ -84,30 +82,42 @@ Aquí unos enlaces con información que podria serte util:
 	 * @URL https://cemasapi.herokuapp.com/reportes/boletin/4A:2020-2021:
 	 * @return  {String}	URL	 String URL .
 	 */
-...
-};
- ```
- 
-#### El hook para gestionar los fecth al API:
+// code...
 
-El hook que creamos es `useFetch`
+};
+
+```
+
+El hook para gestionar los fecth al API es:
+
+**`useFetch.js`**
 ```js
 import { useState, useEffect, useRef } from 'react';
 
-
 export const useFetch = (url) => {
-...
+	// code
 }
+
 ```
 
-#### El componente que hace la peticion y usa el useFetch:
+El componente que hace la peticion y usa el useFetch:
 
+**`ListaBoletines.js`**
 ```js
 import { useFetch } from "../hooks/useFetch";
 import ItemBoletin from "./ItemBoletin";
 
 
 export default function ListaBoletines({ url }) {
-...
+// code...
 }
+
 ```
+
+## Colaboradores de este proyecto
+
+- [Adonys Santos ](https://github.com/adonyssantos) (Product Owner + Developer)
+- [Rusbert Sánchez](https://github.com/Rusbert8) (Product Owner + Developer)
+- [Yusset Roque Martinez ](https://github.com/YussetRoque) (Developer)
+- [Leidy Laura ](https://github.com/leidylauraverasveras) (Developer)
+- [Gregory Pimentel ](https://github.com/Gregorypimentel) (Developer)

@@ -1,0 +1,36 @@
+/* ----------------------------- Interfaz de Log In ---------------------------*/
+
+/* Contenedores */
+
+.container_center {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--background);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Botón para Iniciar Sesión */
+button.log_in {
+  height: 10vh;
+  padding: 0 1vw;
+  display: flex;
+  border-radius: calc(0.5vw + 0.5vh);
+  align-items: center;
+  justify-content: center;
+  background-color: var(--login_bg);
+  border: #0000008e solid 1px;
+  box-shadow: 0 1px 1px #0000005b;
+  color: var(--login_color);
+  font-size: calc(1vw + 2vh);
+}
+
+button.log_in:hover {
+  box-shadow: 0 2.5px 1px #00000071;
+}
+
+button.log_in img {
+  width: calc(2vw + 2vh);
+  margin-right: 0.8vw;
+}

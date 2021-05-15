@@ -1,0 +1,26 @@
+/* ------------------------ Encabezado del Boletín --------------------------- */
+
+h2 {
+  font-family: "Trebuchet MS", sans-serif;
+  margin-top: 3vh;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+h2 span.encabezado_boletines {
+  color: var(--titulo_boletines);
+  font-size: calc(1.5vw + 1.5vh);
+}
+
+h2 span.periodo {
+  color: #3d78c4;
+  font-style: italic;
+  font-size: calc(1vw + 1vh);
+}
+
+hr {
+  color: var(--linea_separacion);
+  border: solid calc(0.001vh + 0.001vw);
+  transform: translate(0vw, -0.9vw);
+}

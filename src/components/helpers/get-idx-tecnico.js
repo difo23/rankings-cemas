@@ -1,4 +1,3 @@
-
 const getIdxTecnico = (modulos, curso) => {
   let sum_acumulado_modulos = 0,
     modulos_length = 0,
@@ -9,7 +8,7 @@ const getIdxTecnico = (modulos, curso) => {
     case "5":
       // Recorrer los modulos
       modulos.forEach((asignatura, index) => {
-        sum_acumulado_modulos += parseFloat (asignatura.acumulado);
+        sum_acumulado_modulos += parseFloat(asignatura.acumulado);
         modulos_length = index;
       });
 
@@ -19,8 +18,9 @@ const getIdxTecnico = (modulos, curso) => {
     case "6":
       // Recorrer los modulos
       modulos.forEach((asignatura, index) => {
-        if (asignatura.codigo_asignatura == "MF0000_FCT") {
-          let fct_transformado = (parseFloat(asignatura.acumulado) * 100) / asignatura.total;
+        if (asignatura.codigo_asignatura === "MF0000_FCT") {
+          let fct_transformado =
+            (parseFloat(asignatura.acumulado) * 100) / asignatura.total;
           let fct_acumulado = fct_transformado;
           sum_acumulado_modulos += fct_acumulado;
         } else sum_acumulado_modulos += parseFloat(asignatura.acumulado);
